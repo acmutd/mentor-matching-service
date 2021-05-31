@@ -7,6 +7,7 @@ import streamlit as st
 import firebase_admin
 from firebase_admin import credentials, firestore
 import os
+from pathlib import Path
 
 # Load in credentials to access firebase db
 #abspath = os.path.abspath('serviceAccountKey.json')
@@ -16,7 +17,9 @@ import os
 # firestore.Client.from_service_account_json("firestore-key.json")
 # Navigating to correct document - firestore
 # db = firestore.client()
-db = firestore.Client.from_service_account_json("serviceAccountKey.json")
+path = Path(__file__).parent / "serviceAccountKey.json"
+db = firestore.Client.from_service_account_json(path)
+
 collection = db.collection('user')
 
 
