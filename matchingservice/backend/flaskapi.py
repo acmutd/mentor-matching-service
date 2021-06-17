@@ -9,9 +9,9 @@ def sample():
     return "tested"
 
 
-@app.route('/getNames', methods=["GET"])
-def names_list():
-    return display.FirebaseData.get_completenames(self="")
+#@app.route('/getNames', methods=["GET"])
+#def names_list():
+    #return display.FirebaseData.get_completenames(self="")
 
 
 if __name__ == "__main__":

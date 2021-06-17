@@ -2,12 +2,12 @@ import './App.css';
 import React from 'react';
 import { Formik, Field, Form } from 'formik';
 import { db } from "./firebase.js";
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-function App() {
+const Home = () => {
   return (
     <div>
-    <h1>Mentor Mentee Matching Survey</h1>
-    <Formik
+      <Formik
       initialValues={{
         firstName: '',
         lastName: '',
@@ -260,6 +260,44 @@ function App() {
         <button type="submit">Submit</button>
       </Form>
     </Formik>
+    </div>
+  );
+};
+
+const Admin = () => {
+  return (
+    <div>
+      <p>Admin side</p>
+    </div>
+  );
+};
+
+
+function App() {
+  return (
+    <div>
+    <h1>Mentor Mentee Matching Survey</h1>
+    
+    <Router>
+              <div>
+                <nav>
+                  <ul>
+                    <li>
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                      <Link to="/admin">Admin</Link>
+                    </li>
+                  </ul>
+                </nav>
+                <Route path="/" exact component={Home} />
+                <Route path="/admin" component={Admin} />
+              </div>
+        </Router>
+
+
+
+    
   </div>
   );
 }
