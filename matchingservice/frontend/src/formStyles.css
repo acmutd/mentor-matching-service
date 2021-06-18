@@ -1,0 +1,217 @@
+.primary {
+    color: #87d393;
+    text-align: center;
+    font-weight: bold;
+    font-size: 6vmin;
+}
+.wholePage{
+    width: 100%;
+}
+.wholePageTwo{
+    margin-top: -4vmin;
+    width: 100%;
+}
+.formHeaders {
+    color: white;
+    text-align: center;
+    font: Arial;
+    font-weight: bold;
+    font-size: 4.2vmin;
+}
+.formQuestions {
+    color: white;
+    font: Arial;
+    font-weight: normal;
+    font-size: 17px;
+    display: grid;
+}
+
+.label {
+    display: grid;
+    color: white;
+    margin: 10px;
+    font: Arial;
+    font-weight: bold;
+    
+}
+
+.box {
+    display: inline-block;
+    grid-template-columns: 80%;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 4vmin;
+    margin-right: -3vmin;
+    width: 2vmin;
+    height: 2vmin;
+    
+}
+
+.box2 {
+    display: inline-block;
+    grid-template-columns: 80%;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 4vmin;
+    margin-right: -0.5vmin;
+    width: 2vmin;
+    height: 2vmin;
+    
+}
+
+.customLabel {
+    display: grid;
+    width: 35vmin;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 5px solid #87d393;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+    padding-left: auto;
+    white-space: nowrap;
+    font-weight: bold;
+    color: white;
+    font-size: 4vmin;
+}
+
+
+.customLabelTwo {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 5px solid #87d393;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 60vmin;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: auto;
+    padding-left: auto;
+    white-space: nowrap;
+    font-weight: bold;
+    color: white;
+    font-size: 3.4vmin;
+}
+
+.customLabelThree {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 5px solid #87d393;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 94vmin;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 1%;
+    white-space: nowrap;
+    font-weight: bold;
+    color: white;
+    font-size: 2vmin;
+}
+
+.customLabelFour {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 5px solid #87d393;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 60vmin;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: auto;
+    padding-left: auto;
+    white-space: nowrap;
+    font-weight: bold;
+    color: white;
+    font-size: 3vmin;
+}
+
+.customLabelFive {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 5px solid #87d393;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 94vmin;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: auto;
+    white-space: nowrap;
+    font-weight: bold;
+    color: white;
+    font-size: 3.1vmin;
+}
+
+.customLabelSix{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 5px solid #87d393;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 94vmin;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: auto;
+    font-weight: bold;
+    color: white;
+    font-size: 3.4vmin;
+    
+}
+
+.button {
+    background-color: #87d393;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3.1vmin;
+    border-radius: 15px;
+}
+
+.linkStyle{
+    display: inline;
+    color: white;
+    font-size: 4.4vmin;
+    padding: 1vmin;
+    padding-right: 15vmin;
+    padding-left: 6vmin;
+    
+}
+
+.linkSpacing{
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+}

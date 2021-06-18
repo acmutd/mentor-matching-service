@@ -3,10 +3,15 @@ import React from 'react';
 import { Formik, Field, Form } from 'formik';
 import { db } from "./firebase.js";
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-
+import './formStyles.css'
 const Home = () => {
   return (
-    <div>
+    <div
+    className = 'wholePage'
+      style={{
+        marginTop: 0,
+        backgroundColor: '#212020',
+      }}>
       <Formik
       initialValues={{
         firstName: '',
@@ -44,14 +49,14 @@ const Home = () => {
         values.q5 = [];
       }}
     >
-      <Form>
-        <label htmlFor="firstName">First Name</label>
+      <Form className='formHeaders'>
+        <label className='label' htmlFor="firstName">First Name</label>
         <Field id="firstName" name="firstName" placeholder="Jane" />
         <br></br>
-        <label htmlFor="lastName">Last Name</label>
+        <label className='label' htmlFor="lastName">Last Name</label>
         <Field id="lastName" name="lastName" placeholder="Doe" />
         <br></br>
-        <label htmlFor="email">Email</label>
+        <label className='label' htmlFor="email">Email</label>
         <Field
           id="email"
           name="email"
@@ -62,55 +67,55 @@ const Home = () => {
         <br></br>
         <div id="my-radio-group">Are you a mentor or a mentee?</div>
           <div role="group" aria-labelledby="my-radio-group">
-            <label>
-              <Field type="radio" name="mentorOrMentee" value="Mentor" />
+            <label className='customLabel'>
+              <Field type="radio" name="mentorOrMentee" value="Mentor" className='box' />
               Mentor
-            </label>
+            </label >
             <br></br>
-            <label>
-              <Field type="radio" name="mentorOrMentee" value="Mentee" />
+            <label className='customLabel'>
+              <Field type="radio" name="mentorOrMentee" value="Mentee" className='box' />
               Mentee
             </label>
           </div>
 
           <br></br>
           <div id="my-radio-group">What’s the maximum number of times you want to meet with your mentor/mentee?</div>
-          <div role="group" aria-labelledby="my-radio-group">
-            <label>
-              <Field type="radio" name="q1" value="One" />
+          <div className='formQuestions' role="group" aria-labelledby="my-radio-group">
+            <label className='customLabelTwo'>
+              <Field type="radio" name="q1" value="One" className='box'/>
               Once a week
             </label>
             <br></br>
-            <label>
-              <Field type="radio" name="q1" value="Two" />
+            <label className='customLabelFour'>
+              <Field type="radio" name="q1" value="Two" className='box'/>
               Biweekly(once every other week)
             </label>
             <br></br>
-            <label>
-              <Field type="radio" name="q1" value="Three" />
+            <label className='customLabelTwo'>
+              <Field type="radio" name="q1" value="Three" className='box'/>
               Once a month
             </label>
             <br></br>
-            <label>
-              <Field type="radio" name="q1" value="Four" />
+            <label className='customLabelFour'>
+              <Field type="radio" name="q1" value="Four" className='box'/>
               Up to the mentor/mentee
             </label>
           </div>
           <br></br>
           <div id="my-radio-group">Are you a(n)</div>
-          <div role="group" aria-labelledby="my-radio-group">
-            <label>
-              <Field type="radio" name="q2" value="One" />
+          <div className='formQuestions' role="group" aria-labelledby="my-radio-group">
+            <label className='customLabelTwo'>
+              <Field type="radio" name="q2" value="One" className='box'/>
               Introvert
             </label>
             <br></br>
-            <label>
-              <Field type="radio" name="q2" value="Two" />
+            <label className='customLabelTwo'>
+              <Field type="radio" name="q2" value="Two" className='box'/>
               Extrovert
             </label>
             <br></br>
-            <label>
-              <Field type="radio" name="q2" value="Three" />
+            <label className='customLabelTwo'>
+              <Field type="radio" name="q2" value="Three" className='box'/>
               Ambivert
             </label>
           </div>
@@ -118,53 +123,53 @@ const Home = () => {
           <br></br>
           <div id="checkbox-group" className="checkbox">What parts of Computer Science are you interested in?</div>
           <div role="group" aria-labelledby="checkbox-group">
-            <label>
-              <Field type="checkbox" name="q3" value="One" />
+            <label className='customLabelFour'>
+              <Field type="checkbox" name="q3" value="One" className='box'/>
               Web/Mobile Development
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q3" value="Two" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q3" value="Two" className='box'/>
               Cloud Computing
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q3" value="Three" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q3" value="Three" className='box'/>
               Artificial Intelligence
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q3" value="Four" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q3" value="Four" className='box'/>
               Data Science
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q3" value="Five" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q3" value="Five" className='box'/>
               Cybersecurity
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q3" value="Six" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q3" value="Six" className='box'/>
               Game Development
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q3" value="Seven" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q3" value="Seven" className='box'/>
               Computer Vision
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q3" value="Eight" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q3" value="Eight" className='box'/>
               Theoretical Computing
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q3" value="Nine" />
+            <label className='customLabelFour'>
+              <Field type="checkbox" name="q3" value="Nine" className='box'/>
               Computer Engineering/Hardware
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q3" value="10" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q3" value="10" className='box'/>
               Other
             </label>
           </div>
@@ -172,28 +177,28 @@ const Home = () => {
           <br></br>
           <div id="checkbox-group">Are you interested in/ involved with any of the following?</div>
           <div role="group" aria-labelledby="checkbox-group">
-            <label>
-              <Field type="checkbox" name="q4" value="One" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q4" value="One" className='box'/>
               Industry/ Internships
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q4" value="Two" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q4" value="Two" className='box'/>
               Fast Track
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q4" value="Three" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q4" value="Three" className='box'/>
               Research/PhD
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q4" value="Four" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q4" value="Four" className='box' />
               CS^2
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q4" value="Five" />
+            <label className='customLabelTwo'>
+              <Field type="checkbox" name="q4" value="Five" className='box'/>
               Pre-med
             </label>
           </div>   
@@ -201,58 +206,58 @@ const Home = () => {
           <br></br>
           <div id="checkbox-group"> Which of these do you want to help with, or want help in?</div>
           <div role="group" aria-labelledby="checkbox-group">
-            <label>
-              <Field type="checkbox" name="q5" value="1" />
+            <label className='customLabelSix'>
+              <Field type="checkbox" name="q5" value="1" className='box2'/>
               Joining new, interesting clubs (i.e. Cybersecurity club, SWE, Student Government, etc.)
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q5" value="2" />
+            <label className='customLabelSix'>
+              <Field type="checkbox" name="q5" value="2" className='box2'/>
               Entering competitions (i.e. Big Idea Competition, Capital One Design Challenge, etc.)
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q5" value="3" />
+            <label className='customLabelFive'>
+              <Field type="checkbox" name="q5" value="3" className='box'/>
               Getting into research
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q5" value="4" />
+            <label className='customLabelFive'>
+              <Field type="checkbox" name="q5" value="4" className='box'/>
               Developing new skills (Python, Azure, Ruby on Rails, etc.)
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q5" value="5" />
+            <label className='customLabelFive'>
+              <Field type="checkbox" name="q5" value="5" className='box'/>
               Improving grades and time management
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q5" value="6" />
+            <label className='customLabelFive'>
+              <Field type="checkbox" name="q5" value="6" className='box'/>
               Improving grades and time management
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q5" value="7" />
+            <label className='customLabelSix'>
+              <Field type="checkbox" name="q5" value="7" className='box2'/>
               Learning about/joining programs (i.e. ACM projects, Clark summer research program, etc.)
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q5" value="8" />
+            <label className='customLabelSix'>
+              <Field type="checkbox" name="q5" value="8" className='box'/>
               Getting a tech related internship, co-op, or job (resumes, networking, interviewing)
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q5" value="9" />
+            <label className='customLabelFive'>
+              <Field type="checkbox" name="q5" value="9" className='box'/>
               Understanding different CS career paths
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q5" value="10" />
+            <label className='customLabelSix'>
+              <Field type="checkbox" name="q5" value="10" className='box2'/>
               Facilitation of connections, networking, or sponsorship
             </label>
             <br></br>
-            <label>
-              <Field type="checkbox" name="q5" value="11" />
+            <label className='customLabelFive'>
+              <Field type="checkbox" name="q5" value="11" className='box'/>
               Course guidance (professors, topics, etc)
             </label>
           </div>       
@@ -267,7 +272,7 @@ const Home = () => {
 const Admin = () => {
   return (
     <div>
-      <p>Admin side</p>
+      <p className='formHeaders'>Admin side</p>
     </div>
   );
 };
@@ -275,17 +280,21 @@ const Admin = () => {
 
 function App() {
   return (
-    <div>
-    <h1>Mentor Mentee Matching Survey</h1>
+    <div
+    className = 'wholePageTwo'
+      style={{
+        backgroundColor: '#212020',
+      }}>
+    <h1 className='primary'>Mentor Mentee Matching Survey</h1>
     
     <Router>
               <div>
                 <nav>
-                  <ul>
-                    <li>
+                  <ul className='linkSpacing'>
+                    <li className='linkStyle'>
                       <Link to="/">Home</Link>
                     </li>
-                    <li>
+                    <li className='linkStyle'>
                       <Link to="/admin">Admin</Link>
                     </li>
                   </ul>
