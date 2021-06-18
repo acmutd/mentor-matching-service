@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\matchingservice\firebasebackend\flaskapi.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

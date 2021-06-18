@@ -8,6 +8,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 import os
 from pathlib import Path
+import pickle
 
 # Load in credentials to access firebase db
 # abspath = os.path.abspath('serviceAccountKey.json')
@@ -46,6 +47,7 @@ for output in final_output:
     str_out = f"The list of people is {output['lname']}"
     st.write(str_out)
 
+pickle.dump(final_output, open("save.p", "wb"))
 
 # Test Class to Connect with Flask - Need to Change to Allow Parameters Later
 class FirebaseData:
@@ -72,4 +74,3 @@ class FirebaseData:
 
 
 print(FirebaseData.get_completenames(final_output))
-
