@@ -52,38 +52,54 @@ def preprocessing():
         #processing q2
         temp = entry['q2']
         entry['q2'] = int(temp)
+        #processing q0
+        temp = entry['q0']
+        entry['q0'] = int(temp)
+        #processing q9
+        temp = entry['q9']
+        entry['q9'] = int(temp)
+        #processing q7
+        temp = entry['q7']
+        entry['q7'] = int(temp)
+        #processing q11
+        temp = entry['q11']
+        entry['q11'] = int(temp)
+        #processing q12
+        temp = entry['q12']
+        entry['q12'] = int(temp)
 
-        #processing q3
-        temp = entry['q3']
-        val = float(0)
-        for i in temp:
-            val = val+ float(i)
-        val = val / len(temp)
-        entry['q3'] = val
-        val = float(0)
-        #processing q4
-        temp = entry['q4']
-        for i in temp:
-            val = val+ float(i)
-        val = val / len(temp)
-        entry['q4'] = val
-        val = float(0)
-        #processing q5
-        temp = entry['q5']
-        for i in temp:
-            val = val+ float(i)
-        val = val / len(temp)
-        entry['q5'] = val
     return list
 
 
+def similarity(x,y):
+    count = 0
+    for i in x:
+        for j in y:
+            if int(i)==int(j):
+                count = count + 1
+    if count==0:
+        return 0.75
+    return float(count)
+
+
 def dist(a,b):
+    q0diff = abs(a['q0']-b['q0']) ** 2
     q1diff = abs(a['q1']-b['q1']) ** 2
     q2diff = abs(a['q2']-b['q2']) ** 2
-    q3diff = abs(a['q3']-b['q3']) ** 2
-    q4diff = abs(a['q4']-b['q4']) ** 2
-    q5diff = abs(a['q5']-b['q5']) ** 2
-    sum = q1diff+q2diff+q3diff+q4diff+q5diff
+    q7diff = abs(a['q7']-b['q7']) ** 2
+    q9diff = abs(a['q9']-b['q9']) ** 2
+    q11diff = abs(a['q11']-b['q11']) ** 2
+    q12diff = abs(a['q12']-b['q12']) ** 2
+
+    q3diff = 10/similarity(a['q3'],b['q3']) ** 2
+    q4diff = 5/similarity(a['q4'],b['q4']) ** 2
+    q5diff = 10/similarity(a['q5'],b['q5']) ** 2
+    q6diff = 5/similarity(a['q6'],b['q6']) ** 2
+    q8diff = 5/similarity(a['q8'],b['q8']) ** 2
+    q10diff = 5/similarity(a['q10'],b['q10']) ** 2
+    q13diff = 6/similarity(a['q13'],b['q13']) ** 2
+
+    sum = q1diff+q2diff+q3diff+q4diff+q5diff+q6diff+q7diff+q8diff+q9diff+q10diff+q11diff+q12diff+q13diff
     return math.sqrt(float(sum))
 
 def clustering():
