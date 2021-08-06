@@ -24,7 +24,7 @@ sheet = ""
 def openFirestore(firestoreJSONName):
     try:
         # Use the json file to attempt to connect to firebase
-        cred = credentials.Certificate(firestoreJSONName + ".json")
+        cred = credentials.Certificate("serviceAccountKey.json")
         firebase_admin.initialize_app(cred)
         return True
     except:
@@ -37,7 +37,7 @@ def openFirestore(firestoreJSONName):
 def openSheets():
     try:
         # Connecting to Google Sheets API
-        cred = service_account.ServiceAccountCredentials.from_json_keyfile_name(sys.argv[2] + ".json", scope)
+        cred = service_account.ServiceAccountCredentials.from_json_keyfile_name("credits.json")
         client = gspread.authorize(cred)
 
         # Var for tracking the URL of the google sheets to be edited
