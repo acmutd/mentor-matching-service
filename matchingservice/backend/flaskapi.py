@@ -34,14 +34,14 @@ def openFirestore(firestoreJSONName):
 
 
 # Method to connect to Google Sheets API and given Google Sheet
-def openSheets():
+def openSheets(url):
     try:
         # Connecting to Google Sheets API
         cred = service_account.ServiceAccountCredentials.from_json_keyfile_name("credits.json")
         client = gspread.authorize(cred)
 
         # Var for tracking the URL of the google sheets to be edited
-        sheet_url = sys.argv[1]
+        sheet_url = url
 
         # Setting the global sheets value and returning true for a successful get
         global sheet
@@ -70,9 +70,10 @@ def names_list():
     return json.dumps(data)
 
 @app.route('/sendMatchingToSheet')
-def runSheetsScript(urlToSheet):
+def runSheetsScript():
+    urlToSheets = "https://docs.google.com/spreadsheets/d/1xH5J9UTXBn5dzDN-9GxhL09OUefJhwJ2NvnRozINnqA/edit?usp=sharing"
     #Attempting to open the connection to Firestore
-    if openFirestore(urlToSheet):
+    if openFirestore(urlToSheets):
 
         # Getting the Pairings collection
         db = firestore.client()
