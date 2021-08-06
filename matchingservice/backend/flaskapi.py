@@ -81,9 +81,9 @@ def runSheetsScript(urlToSheet):
         # Opening sheets
         if openSheets():
             # Inserting and formatting the top row
-            titleRow = ["Send Email", "First Name", "Last Name", "Type", "P1 FN",
-                        "P1 LN", "P1 Email", "P1 Reason", "P2 FN",
-                        "P2 LN", "P2 Email", "P2 Reason"]
+            titleRow = ["Send Email", "First Name", "Last Name", "Partner Type", "P1 FN",
+                        "P1 LN", "P1 Email", "P1 Matching Score", "P2 FN",
+                        "P2 LN", "P2 Email", "P2 Matching Score"]
 
             # Inserting heading row and formatting it bold
             sheet.insert_row(titleRow, 1)
