@@ -1,4 +1,5 @@
 from flask import Flask, request, json
+from flask_cors import CORS
 from display import *
 
 # imports for the python script
@@ -21,7 +22,7 @@ scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/au
 sheet = ""
 
 # Method to connect to firebase
-def openFirestore(firestoreJSONName):
+def openFirestore():
     try:
         # Use the json file to attempt to connect to firebase
         cred = credentials.Certificate("serviceAccountKey.json")
@@ -69,18 +70,25 @@ def names_list():
     #print(names_list1)
     return json.dumps(data)
 
-@app.route('/sendMatchingToSheet')
+
+@app.route('/demo', methods = ['POST'])
+def result():
+    id = str(request.get_json())
+    print(id)
+    return "Done"
+
+@app.route('/sendMatchingToSheet', methods = ['POST'] )
 def runSheetsScript():
-    urlToSheets = "https://docs.google.com/spreadsheets/d/1xH5J9UTXBn5dzDN-9GxhL09OUefJhwJ2NvnRozINnqA/edit?usp=sharing"
+    urlToSheets = str(request.get_json())
     #Attempting to open the connection to Firestore
-    if openFirestore(urlToSheets):
+    if openFirestore():
 
         # Getting the Pairings collection
         db = firestore.client()
         pairingList = db.collection('Pairings').get()
 
         # Opening sheets
-        if openSheets():
+        if openSheets(urlToSheets):
             # Inserting and formatting the top row
             titleRow = ["Send Email", "First Name", "Last Name", "Partner Type", "P1 FN",
                         "P1 LN", "P1 Email", "P1 Matching Score", "P2 FN",
@@ -115,9 +123,10 @@ def runSheetsScript():
                     sheet.insert_row(newRow, 2)
 
         return "Done"
-    
+
 
 
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=105)
+    CORS(app)

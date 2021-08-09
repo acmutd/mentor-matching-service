@@ -31,7 +31,9 @@ const form = () => {
           q4: [],
           q5: [],
           q10: [],
-          q13: []
+          q13: [],
+          q14: '',
+          q15: '',
         }}
         onSubmit={async (values) => {
           db.collection('info').add({
@@ -53,6 +55,8 @@ const form = () => {
             q11: values.q11,
             q12: values.q12,
             q13: values.q13,
+            q14: values.q14,
+            q15: values.q15
           })
           //await new Promise((r) => setTimeout(r, 500));
           alert("Your response was submitted!");
@@ -74,6 +78,8 @@ const form = () => {
           values.q11 = '';
           values.q12 = '';
           values.q13 = [];
+          values.q14 = '';
+          values.q15 = '';
         }}
       >
         <Form className='formHeaders'>
@@ -107,6 +113,26 @@ const form = () => {
                 Mentee
               </label>
             </div>
+
+            <br></br>
+            <div id="my-radio-group">If you are a mentor, are you okay with  having two mentees?</div>
+            <div role="group" aria-labelledby="my-radio-group">
+              <label className='customLabel'>
+                <Field type="radio" name="q15" value="1" className='box' />
+                Yes
+              </label >
+              <br></br>
+              <label className='customLabel'>
+                <Field type="radio" name="q15" value="2" className='box' />
+                No
+              </label>
+              <br></br>
+              <label className='customLabel'>
+                <Field type="radio" name="q15" value="3" className='box' />
+                I am a mentee
+              </label>
+            </div>
+
             <br></br>
             <div id="my-radio-group">Do you live on campus or off-campus?</div>
             <div role="group" aria-labelledby="my-radio-group">
@@ -118,6 +144,20 @@ const form = () => {
               <label className='customLabel'>
                 <Field type="radio" name="q0" value="2" className='box' />
                 Off-Campus
+              </label>
+            </div>
+
+            <br></br>
+            <div id="my-radio-group">Are you an international student who would prefer being matched with another international student to learn about/help with the specifics with that?</div>
+            <div role="group" aria-labelledby="my-radio-group">
+              <label className='customLabel'>
+                <Field type="radio" name="q14" value="1" className='box' />
+                Yes
+              </label >
+              <br></br>
+              <label className='customLabel'>
+                <Field type="radio" name="q14" value="2" className='box' />
+                No/Not-Applicable
               </label>
             </div>
 

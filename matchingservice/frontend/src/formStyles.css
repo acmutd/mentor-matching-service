@@ -26,6 +26,14 @@
   display: grid;
 }
 
+.labeladmin {
+  display: grid;
+  color: black;
+  margin: 10px;
+  font: Arial;
+  font-weight: bold;
+}
+
 .label {
   display: grid;
   color: white;
