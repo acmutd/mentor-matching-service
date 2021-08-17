@@ -4,28 +4,21 @@ import {LinkContainer} from 'react-router-bootstrap'
 import { useAuth0 } from "@auth0/auth0-react";
 import LogoutButton from './LogoutButton';
 import LoginButton from './LoginButton';
-
+import '../formStyles.css';
 const Header = () => {
   const {user,isAuthenticated} = useAuth0();
     if (!isAuthenticated)
     return (
-      <Navbar bg="light" expand="lg">
-      <Navbar.Brand>Matching Portal</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="mr-auto">
-        <LinkContainer to="/">
-          <Nav.Link> <LoginButton /> </Nav.Link>
-          </LinkContainer>
-      </Nav>
-      </Navbar.Collapse>
+      <Navbar bg="dark" expand="lg">
+      <Navbar.Brand><img src="Education-logo.svg" width="150" height="50" className="icon" alt="ACM Education"/></Navbar.Brand>
       </Navbar>
     ) 
     else if (isAuthenticated && user.email.includes('@gmail.com')) 
     return (
-      <Navbar bg="light" expand="lg">
-      <Navbar.Brand>Matching Portal</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar bg="dark" expand="lg">
+      <Navbar.Brand><img src="Education-logo.svg" width="150" height="50" className="icon2" alt="ACM Education"/></Navbar.Brand>
+      <Navbar.Brand className="barName"><span>Matching Portal</span></Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className="menuBox"/>
       <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
         <LinkContainer to="/">
@@ -37,19 +30,20 @@ const Header = () => {
     ) 
     else if (isAuthenticated && user.email.includes('@acmutd.co'))
     return (
-      <Navbar bg="light" expand="lg">
-      <Navbar.Brand>Matching Portal</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar bg="dark" expand="lg">
+      <Navbar.Brand><img src="Education-logo.svg" width="150" height="50" className="icon2" alt="ACM Education"/></Navbar.Brand>
+      <Navbar.Brand className="barName"><span>Matching Portal</span></Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className="menuBox"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <LinkContainer to="/">
-          <Nav.Link>Home</Nav.Link>
+          <Nav.Link className="menuBoxP2"><span>Home</span></Nav.Link>
           </LinkContainer>
           <LinkContainer to="/admin">
-          <Nav.Link>Admin</Nav.Link>
+          <Nav.Link className="menuBoxP4"><span>Admin</span></Nav.Link>
           </LinkContainer>
           <LinkContainer to="/">
-          <Nav.Link> <LogoutButton /> </Nav.Link>
+          <Nav.Link> <LogoutButton/> </Nav.Link>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>

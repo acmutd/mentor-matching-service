@@ -5,7 +5,7 @@ import { TextField } from '@material-ui/core';
 import '../formStyles.css';
 const Admins = () => {
     return (
-        <div>
+        <div className='admin'>
             <Formik
             initialValues = {{
                 url: ''
@@ -30,11 +30,11 @@ const Admins = () => {
               }}
               >
                 <Form>
-                    <label className='labeladmin'>Specify the url of the google sheets to send the matched pairs</label>
+                    <label className='labeladmin'><h1>Specify the url of the google sheets to send the matched pairs</h1></label>
+                    <br className='labeladmin'></br>
+                    <div className='labeladmin'><Field name = "url" label="Outlined" variant="outlined" /></div>
                     <br></br>
-                    <Field name = "url" label="Outlined" variant="outlined" />
-                    <br></br>
-                    <Button type="submit" variant="contained" color="primary" className='button'>Send Matchings</Button>
+                    <div className='labeladmin'><Button type="submit" variant="contained" color="primary" >Send Matchings</Button></div>
                 </Form>
               </Formik>
         </div>

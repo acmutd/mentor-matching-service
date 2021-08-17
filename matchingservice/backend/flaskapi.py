@@ -1,6 +1,7 @@
 from flask import Flask, request, json
 from flask_cors import CORS
-from display import *
+from pyasn1.type.univ import Null
+from display import clustering
 
 # imports for the python script
 import sys
@@ -21,12 +22,15 @@ scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/au
 # The sheet object the script is connecting to
 sheet = ""
 
+
 # Method to connect to firebase
 def openFirestore():
     try:
         # Use the json file to attempt to connect to firebase
         cred = credentials.Certificate("serviceAccountKey.json")
-        firebase_admin.initialize_app(cred)
+        if not firebase_admin._apps:
+            firebase_admin.initialize_app(cred)
+        
         return True
     except:
         # Unable to connect to firebase
@@ -77,6 +81,7 @@ def result():
     print(id)
     return "Done"
 
+
 @app.route('/sendMatchingToSheet', methods = ['POST'] )
 def runSheetsScript():
     urlToSheets = str(request.get_json())
@@ -94,15 +99,22 @@ def runSheetsScript():
                         "P1 LN", "P1 Email", "P1 Matching Score", "P2 FN",
                         "P2 LN", "P2 Email", "P2 Matching Score"]
 
+            #Emptying the sheet to put the new data in
+            if sheet.get('A1'):
+                while(sheet.get('A1')):
+                    sheet.delete_row(1)
+
             # Inserting heading row and formatting it bold
             sheet.insert_row(titleRow, 1)
             sheet.format('A1:L1', {'textFormat': {'bold': True}})
+
 
             # Iterator to get all the docs in the current collection
             for doc in pairingList:
 
                 # If the doc exists, perform a query on it
                 if doc.exists:
+
 
                     # getting the info on the partners
                     partnerInfo = doc.get("Partners")
