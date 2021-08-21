@@ -1,5 +1,3 @@
-
-
 @media (max-width: 479px) {
   .formHeaders {
     color: white;
@@ -9,23 +7,23 @@
     text-align: center;
   }
 
-  .inputLabels{
+  .inputLabels {
     font-size: 8vw;
     padding-bottom: 3vw;
     display: grid;
   }
 
-  .questionTitle1{
+  .questionTitle1 {
     font-size: 6.5vw;
     padding-top: 2.5vw;
     margin-bottom: -3vw;
   }
-  
-  .questionAnswer1 span{
+
+  .questionAnswer1 span {
     font-size: 6.5vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     padding-right: 15vw;
     padding-left: 15vw;
@@ -33,91 +31,88 @@
     padding-bottom: 2.8vw;
     color: white;
   }
-  
+
   .questionAnswer1 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer1 label{
+
+  .questionAnswer1 label {
     margin-top: 9vw;
     margin-bottom: 3vw;
   }
-  
-  
-  .questionAnswer1 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer1 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
-  }
-  
 
-  .questionTitle2{
+  .questionAnswer1 input[type="radio"] {
+    display: none;
+  }
+
+  .questionAnswer1 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle2 {
     font-size: 6vw;
     padding-top: 2.5vw;
     margin-bottom: -3vw;
   }
-  
-  .questionAnswer2 span{
+
+  .questionAnswer2 span {
     font-size: 7vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     padding-top: 2.8vw;
     padding-bottom: 2.8vw;
     color: white;
   }
 
-  .questionAnswer2P2 span{
+  .questionAnswer2P2 span {
     padding-left: 20vw;
     padding-right: 20vw;
   }
-  
-  .questionAnswer2P3 span{
+
+  .questionAnswer2P3 span {
     padding-left: 21vw;
     padding-right: 21vw;
   }
 
-  .questionAnswer2P4 span{
+  .questionAnswer2P4 span {
     padding-left: 3vw;
     padding-right: 3vw;
   }
 
   .questionAnswer2 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer2 label{
+
+  .questionAnswer2 label {
     margin-top: 9vw;
   }
-  
-  .questionAnswer2 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer2 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer2 input[type="radio"] {
+    display: none;
   }
 
+  .questionAnswer2 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
 
-  .questionTitle3{
-    font-size:6.4vw;
+  .questionTitle3 {
+    font-size: 6.4vw;
     padding-top: 2.5vw;
     margin-left: 1vw;
     margin-right: 1vw;
   }
 
-  .questionAnswer3 span{
+  .questionAnswer3 span {
     font-size: 7vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     padding-top: 2.8vw;
     padding-bottom: 2.8vw;
@@ -125,28 +120,28 @@
     padding-right: 7vw;
     color: white;
   }
-  
+
   .questionAnswer3 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionAnswer3 label{
+  .questionAnswer3 label {
     margin-bottom: 5vw;
     margin-top: 5vw;
   }
-  
-  .questionAnswer3 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer3 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer3 input[type="radio"] {
+    display: none;
   }
 
-  .questionTitle4{
-    font-size:5.8vw;
+  .questionAnswer3 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle4 {
+    font-size: 5.8vw;
     padding-top: 2.5vw;
     margin-bottom: -3vw;
     margin-top: -4vw;
@@ -154,13 +149,13 @@
     margin-right: 2.8vw;
   }
 
-  .questionAnswer4 span{
-    display:inline-block;
+  .questionAnswer4 span {
+    display: inline-block;
     font-size: 6vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -168,172 +163,166 @@
     padding-bottom: 2.8vw;
   }
 
-  .questionAnswer4P2 span{
+  .questionAnswer4P2 span {
     padding-left: 26.5vw;
     padding-right: 26.5vw;
   }
 
-  .questionAnswer4P3 span{
+  .questionAnswer4P3 span {
     padding-left: 5vw;
     padding-right: 5vw;
   }
-  
+
   .questionAnswer4 span:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer4 label{
-    margin-top: 7vw;
-  }
-  
-  
-  .questionAnswer4 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer4 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionTitle5{
-    font-size:5.8vw;
+  .questionAnswer4 label {
+    margin-top: 7vw;
+  }
+
+  .questionAnswer4 input[type="radio"] {
+    display: none;
+  }
+
+  .questionAnswer4 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle5 {
+    font-size: 5.8vw;
     padding-top: 2.5vw;
     margin-bottom: -3vw;
     margin-left: 2vw;
     margin-right: 2vw;
   }
 
-
-  .questionAnswer5 h1{
-    display:inline-block;
+  .questionAnswer5 h1 {
+    display: inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     padding-top: 2.3vw;
     padding-bottom: 2.3vw;
   }
 
-  .questionAnswer5P2 h1{
+  .questionAnswer5P2 h1 {
     padding-left: 5vw;
     padding-right: 5vw;
     margin-left: 8vw;
     margin-right: 8vw;
   }
 
-  .questionAnswer5P3 h1{
+  .questionAnswer5P3 h1 {
     padding-left: 5vw;
     padding-right: 5vw;
     margin-left: 8vw;
     margin-right: 8vw;
   }
 
-  .questionAnswer5P4 h1{
+  .questionAnswer5P4 h1 {
     padding-left: 11vw;
     padding-right: 11vw;
   }
-  
+
   .questionAnswer5 h1:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer5 label{
+
+  .questionAnswer5 label {
     margin-top: 8vw;
   }
-  
-  
-  .questionAnswer5 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer5 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer5 input[type="radio"] {
+    display: none;
   }
 
+  .questionAnswer5 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
 
-  .questionTitle55{
-    font-size:5.8vw;
+  .questionTitle55 {
+    font-size: 5.8vw;
     padding-top: 2.5vw;
     margin-bottom: -3vw;
     margin-left: 2.8vw;
     margin-right: 2.8vw;
   }
 
-  .questionAnswer55 span{
-    display:inline-block;
+  .questionAnswer55 span {
+    display: inline-block;
     font-size: 6vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     padding-top: 2vw;
     padding-bottom: 2vw;
   }
 
-  .questionAnswer55P2 span{
+  .questionAnswer55P2 span {
     padding-left: 20vw;
     padding-right: 20vw;
   }
 
-  .questionAnswer55P3 span{
+  .questionAnswer55P3 span {
     padding-left: 1vw;
     padding-right: 1vw;
     font-size: 5.5vw;
     margin-left: 11vw;
     margin-right: 11vw;
   }
-  .questionAnswer55P4 span{
+  .questionAnswer55P4 span {
     padding-left: 18.5vw;
     padding-right: 18.5vw;
   }
-  .questionAnswer55P5 span{
+  .questionAnswer55P5 span {
     font-size: 5.8vw;
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  
+
   .questionAnswer55 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer55 label{
+
+  .questionAnswer55 label {
     margin-top: 8vw;
   }
-  
-  
-  .questionAnswer55 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer55 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer55 input[type="radio"] {
+    display: none;
   }
 
+  .questionAnswer55 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
 
-  .questionTitle6{
-    font-size:5.8vw;
+  .questionTitle6 {
+    font-size: 5.8vw;
     padding-top: 2.5vw;
     margin-bottom: -3vw;
     margin-left: 2vw;
     margin-right: 2vw;
   }
 
-  .questionAnswer6 h1{
-    display:inline-block;
+  .questionAnswer6 h1 {
+    display: inline-block;
     font-size: 6vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -341,63 +330,62 @@
     padding-bottom: 2.8vw;
   }
 
-  .questionAnswer6P2 h1{
+  .questionAnswer6P2 h1 {
     padding-left: 20vw;
     padding-right: 20vw;
   }
 
-  .questionAnswer6P3 h1{
+  .questionAnswer6P3 h1 {
     padding-left: 17vw;
     padding-right: 17vw;
   }
-  .questionAnswer6P4 h1{
+  .questionAnswer6P4 h1 {
     padding-left: 23.5vw;
     padding-right: 23.5vw;
   }
-  .questionAnswer6P5 h1{
+  .questionAnswer6P5 h1 {
     padding-left: 9vw;
     padding-right: 9vw;
   }
-  
+
   .questionAnswer6 h1:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer6 label{
+
+  .questionAnswer6 label {
     margin-top: 8vw;
   }
-  
-  
-  .questionAnswer6 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer6 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer6 input[type="checkbox"] {
+    display: none;
   }
 
-  .questionAnswer6 input[type="checkbox"]:not(:checked)+h1{
+  .questionAnswer6 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer6 input[type="checkbox"]:not(:checked) + h1 {
     background-color: black;
-    color: white ;
+    color: white;
   }
 
-  .questionTitle77{
-    font-size:5.8vw;
+  .questionTitle77 {
+    font-size: 5.8vw;
     padding-top: 2.5vw;
     margin-bottom: -3vw;
     margin-left: 2vw;
     margin-right: 2vw;
   }
 
-  .questionAnswer77 h1{
-    display:inline-block;
+  .questionAnswer77 h1 {
+    display: inline-block;
     font-size: 6vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -405,53 +393,52 @@
     padding-bottom: 2vw;
   }
 
-  .questionAnswer77P2 h1{
+  .questionAnswer77P2 h1 {
     padding-left: 18vw;
     padding-right: 18vw;
   }
-  
-  .questionAnswer77P3 h1{
+
+  .questionAnswer77P3 h1 {
     padding-left: 15vw;
     padding-right: 15vw;
   }
-  
+
   .questionAnswer77 h1:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer77 label{
-    margin-top: 8vw;
-  }
-  
-  
-  .questionAnswer77 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer77 input[type="radio"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
-  }
-  .questionAnswer77 input[type="radio"]:not(:checked)+h1{
-    background-color: black;
-    color: white ;
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionTitle7{
-    font-size:6vw;
+  .questionAnswer77 label {
+    margin-top: 8vw;
+  }
+
+  .questionAnswer77 input[type="radio"] {
+    display: none;
+  }
+
+  .questionAnswer77 input[type="radio"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+  .questionAnswer77 input[type="radio"]:not(:checked) + h1 {
+    background-color: black;
+    color: white;
+  }
+
+  .questionTitle7 {
+    font-size: 6vw;
     padding-top: 2.5vw;
     margin-bottom: -3vw;
     margin-left: 2vw;
     margin-right: 3vw;
   }
-  .questionAnswer7 span{
-    display:inline-block;
+  .questionAnswer7 span {
+    display: inline-block;
     font-size: 6vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -459,42 +446,40 @@
     padding-bottom: 2.8vw;
   }
 
-  .questionAnswer7P2 span{
+  .questionAnswer7P2 span {
     padding-left: 9vw;
     padding-right: 9vw;
   }
-  
-  
+
   .questionAnswer7 span:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer7 label{
-    margin-top: 8vw;
-  }
-  
-  
-  .questionAnswer7 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer7 input[type="checkbox"]:checked+span{
-    background-color: #56E100;
-    color: black ;
-  }
-  .questionAnswer7 input[type="checkbox"]:not(:checked)+span{
-    background-color: black;
-    color: white ;
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionAnswer8 h1{
-    display:inline-block;
+  .questionAnswer7 label {
+    margin-top: 8vw;
+  }
+
+  .questionAnswer7 input[type="checkbox"] {
+    display: none;
+  }
+
+  .questionAnswer7 input[type="checkbox"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+  .questionAnswer7 input[type="checkbox"]:not(:checked) + span {
+    background-color: black;
+    color: white;
+  }
+
+  .questionAnswer8 h1 {
+    display: inline-block;
     font-size: 6vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -502,63 +487,61 @@
     padding-bottom: 2vw;
   }
 
-  .questionAnswer8P2 h1{
+  .questionAnswer8P2 h1 {
     padding-left: 26vw;
     padding-right: 26vw;
   }
 
-  .questionAnswer8P3 h1{
+  .questionAnswer8P3 h1 {
     padding-left: 17.5vw;
     padding-right: 17.5vw;
   }
-  .questionAnswer8P4 h1{
+  .questionAnswer8P4 h1 {
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  .questionAnswer8P5 h1{
+  .questionAnswer8P5 h1 {
     padding-left: 12.5vw;
     padding-right: 12.5vw;
   }
-  .questionAnswer8P6 h1{
+  .questionAnswer8P6 h1 {
     padding-left: 6vw;
     padding-right: 6vw;
   }
-  
+
   .questionAnswer8 h1:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer8 label{
+
+  .questionAnswer8 label {
     margin-top: 8vw;
   }
-  
-  
-  .questionAnswer8 input[type="checkbox"]{
-    display: none;  
+
+  .questionAnswer8 input[type="checkbox"] {
+    display: none;
   }
-  
-  .questionAnswer8 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer8 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
   }
-  .questionAnswer8 input[type="checkbox"]:not(:checked)+h1{
+  .questionAnswer8 input[type="checkbox"]:not(:checked) + h1 {
     background-color: black;
-    color: white ;
+    color: white;
   }
-  .questionAnswer8 input[type="checkbox"]:not(:checked):hover+h1{
-    background-color: #56E100;
-    color: black ;
+  .questionAnswer8 input[type="checkbox"]:not(:checked):hover + h1 {
+    background-color: #56e100;
+    color: black;
   }
 
-
-  .questionAnswer9 span{
-    display:inline-block;
+  .questionAnswer9 span {
+    display: inline-block;
     font-size: 6vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -566,57 +549,56 @@
     padding-bottom: 2.3vw;
   }
 
-  .questionAnswer9P2 span{
+  .questionAnswer9P2 span {
     padding-left: 20vw;
     padding-right: 20vw;
   }
 
-  .questionAnswer9P3 span{
+  .questionAnswer9P3 span {
     padding-left: 5vw;
     padding-right: 5vw;
   }
 
-  .questionAnswer9P4 span{
+  .questionAnswer9P4 span {
     padding-left: 10vw;
     padding-right: 10vw;
   }
 
-  .questionAnswer9P5 span{
+  .questionAnswer9P5 span {
     padding-left: 27vw;
     padding-right: 27vw;
   }
 
-  .questionAnswer9P6 span{
+  .questionAnswer9P6 span {
     padding-left: 34vw;
     padding-right: 34vw;
   }
-  
+
   .questionAnswer9 span:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer9 label{
-    margin-top: 8vw;
-  }
-  
-  
-  .questionAnswer9 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer9 input[type="radio"]:checked+span{
-    background-color: #56E100;
+    background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer10 span{
-    display:inline-block;
+  .questionAnswer9 label {
+    margin-top: 8vw;
+  }
+
+  .questionAnswer9 input[type="radio"] {
+    display: none;
+  }
+
+  .questionAnswer9 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer10 span {
+    display: inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -625,33 +607,32 @@
     padding-left: 27vw;
     padding-right: 27vw;
   }
-  
+
   .questionAnswer10 span:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer10 label{
-    margin-top: 8vw;
-  }
-  
-  
-  .questionAnswer10 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer10 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionAnswer11 span{
-    display:inline-block;
+  .questionAnswer10 label {
+    margin-top: 8vw;
+  }
+
+  .questionAnswer10 input[type="radio"] {
+    display: none;
+  }
+
+  .questionAnswer10 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer11 span {
+    display: inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -660,39 +641,38 @@
     padding-left: 20vw;
     padding-right: 20vw;
   }
-  
+
   .questionAnswer11 span:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer11 label{
-    margin-top: 8vw;
-  }
-  
-  
-  .questionAnswer11 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer11 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionTitle12{
+  .questionAnswer11 label {
+    margin-top: 8vw;
+  }
+
+  .questionAnswer11 input[type="radio"] {
+    display: none;
+  }
+
+  .questionAnswer11 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle12 {
     font-size: 6vw;
     padding-top: 2.5vw;
     margin-bottom: -3vw;
   }
 
-  .questionAnswer12 span{
-    display:inline-block;
+  .questionAnswer12 span {
+    display: inline-block;
     font-size: 6vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -700,46 +680,44 @@
     padding-bottom: 2.8vw;
   }
 
-  .questionAnswer12P2 span{
+  .questionAnswer12P2 span {
     padding-left: 20vw;
     padding-right: 20vw;
   }
 
-  .questionAnswer12P3 span{
+  .questionAnswer12P3 span {
     padding-left: 22.5vw;
     padding-right: 22.5vw;
   }
 
-  .questionAnswer12P4 span{
+  .questionAnswer12P4 span {
     padding-left: 25vw;
     padding-right: 25vw;
   }
-  
+
   .questionAnswer12 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer12 label{
+
+  .questionAnswer12 label {
     margin-top: 8vw;
   }
-  
-  
-  .questionAnswer12 input[type="checkbox"]{
-    display: none;  
+
+  .questionAnswer12 input[type="checkbox"] {
+    display: none;
   }
-  
-  .questionAnswer12 input[type="checkbox"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer12 input[type="checkbox"]:checked + span {
+    background-color: #56e100;
+    color: black;
   }
-  .questionAnswer12 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer12 input[type="checkbox"]:not(:checked) + span {
     background-color: black;
-    color: white ;
+    color: white;
   }
 
-
-  .questionTitle13{
+  .questionTitle13 {
     font-size: 6.8vw;
     padding-top: 2.5vw;
     padding-bottom: -1vw;
@@ -747,13 +725,13 @@
     margin-right: 2vw;
   }
 
-  .questionAnswer13 h1{
-    display:inline-block;
+  .questionAnswer13 h1 {
+    display: inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -761,82 +739,80 @@
     padding-bottom: 2.3vw;
   }
 
-  .questionAnswer13P2 h1{
+  .questionAnswer13P2 h1 {
     padding-left: 7.5vw;
     padding-right: 7.5vw;
   }
 
-  .questionAnswer13P3 h1{
+  .questionAnswer13P3 h1 {
     padding-left: 19vw;
     padding-right: 19vw;
   }
 
-  .questionAnswer13P4 h1{
+  .questionAnswer13P4 h1 {
     padding-left: 14vw;
     padding-right: 14vw;
   }
 
-  .questionAnswer13P5 h1{
+  .questionAnswer13P5 h1 {
     padding-left: 25vw;
     padding-right: 25vw;
   }
 
-  .questionAnswer13P6 h1{
+  .questionAnswer13P6 h1 {
     padding-left: 23.5vw;
     padding-right: 23.5vw;
   }
 
-  .questionAnswer13P7 h1{
+  .questionAnswer13P7 h1 {
     padding-left: 16.5vw;
     padding-right: 16.5vw;
   }
 
-  .questionAnswer13P8 h1{
+  .questionAnswer13P8 h1 {
     padding-left: 20.5vw;
     padding-right: 20.5vw;
   }
 
-  .questionAnswer13P9 h1{
+  .questionAnswer13P9 h1 {
     padding-left: 12.5vw;
     padding-right: 12.5vw;
   }
 
-  .questionAnswer13P10 h1{
+  .questionAnswer13P10 h1 {
     padding-left: 3vw;
     padding-right: 3vw;
     font-size: 5vw;
   }
-  .questionAnswer13P11 h1{
+  .questionAnswer13P11 h1 {
     padding-left: 34vw;
     padding-right: 34vw;
   }
-  
+
   .questionAnswer13 h1:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer13 label{
+
+  .questionAnswer13 label {
     margin-top: 6vw;
   }
-  
-  
-  .questionAnswer13 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer13 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer13 input[type="checkbox"] {
+    display: none;
   }
 
-  .questionAnswer13 input[type="checkbox"]:not(:checked)+h1{
+  .questionAnswer13 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer13 input[type="checkbox"]:not(:checked) + h1 {
     background-color: black;
-    color: white ;
+    color: white;
   }
 
-
-  .questionTitle14{
+  .questionTitle14 {
     font-size: 6vw;
     padding-top: 2.5vw;
     padding-bottom: -1vw;
@@ -844,13 +820,13 @@
     margin-right: 2vw;
   }
 
-  .questionAnswer14 h1{
-    display:inline-block;
+  .questionAnswer14 h1 {
+    display: inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -858,57 +834,55 @@
     padding-bottom: 3vw;
   }
 
-  .questionAnswer14P2 h1{
+  .questionAnswer14P2 h1 {
     padding-left: 7vw;
     padding-right: 7vw;
   }
 
-  .questionAnswer14P3 h1{
+  .questionAnswer14P3 h1 {
     padding-left: 21vw;
     padding-right: 21vw;
   }
 
-  .questionAnswer14P4 h1{
+  .questionAnswer14P4 h1 {
     padding-left: 15.5vw;
     padding-right: 15.5vw;
   }
 
-  .questionAnswer14P5 h1{
+  .questionAnswer14P5 h1 {
     padding-left: 27vw;
     padding-right: 27vw;
   }
 
-  .questionAnswer14P6 h1{
+  .questionAnswer14P6 h1 {
     padding-left: 22.5vw;
     padding-right: 22.5vw;
   }
 
   .questionAnswer14 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer14 label{
+
+  .questionAnswer14 label {
     margin-top: 6vw;
   }
-  
-  
-  .questionAnswer14 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer14 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer14 input[type="checkbox"] {
+    display: none;
   }
 
-  .questionAnswer14 input[type="checkbox"]:not(:checked)+h1{
+  .questionAnswer14 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer14 input[type="checkbox"]:not(:checked) + h1 {
     background-color: black;
-    color: white ;
+    color: white;
   }
 
-
-  .questionTitle15{
+  .questionTitle15 {
     font-size: 6vw;
     padding-top: 2.5vw;
     padding-bottom: -1vw;
@@ -916,13 +890,13 @@
     margin-right: 2vw;
   }
 
-  .questionAnswer15 h1{
-    display:inline-block;
+  .questionAnswer15 h1 {
+    display: inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -930,7 +904,7 @@
     padding-bottom: 4vw;
   }
 
-  .questionAnswer15P2 h1{
+  .questionAnswer15P2 h1 {
     padding-left: 0.1vw;
     padding-right: 0.1vw;
     margin-left: 5vw;
@@ -938,7 +912,7 @@
     font-size: 4.8vw;
   }
 
-  .questionAnswer15P3 h1{
+  .questionAnswer15P3 h1 {
     padding-left: 0.1vw;
     padding-right: 0.1vw;
     margin-left: 5vw;
@@ -946,12 +920,12 @@
     font-size: 4.8vw;
   }
 
-  .questionAnswer15P4 h1{
+  .questionAnswer15P4 h1 {
     padding-left: 16.5vw;
     padding-right: 16.5vw;
   }
 
-  .questionAnswer15P5 h1{
+  .questionAnswer15P5 h1 {
     padding-left: 0.1vw;
     padding-right: 0.1vw;
     margin-left: 5vw;
@@ -959,7 +933,7 @@
     font-size: 5vw;
   }
 
-  .questionAnswer15P6 h1{
+  .questionAnswer15P6 h1 {
     padding-left: 0.2vw;
     padding-right: 0.2vw;
     margin-left: 5vw;
@@ -967,19 +941,19 @@
     font-size: 5vw;
   }
 
-  .questionAnswer15P7 h1{
+  .questionAnswer15P7 h1 {
     margin-left: 5vw;
     margin-right: 5vw;
     font-size: 4.5vw;
   }
 
-  .questionAnswer15P8 h1{
+  .questionAnswer15P8 h1 {
     margin-left: 5vw;
     margin-right: 5vw;
     font-size: 4.7vw;
   }
 
-  .questionAnswer15P9 h1{
+  .questionAnswer15P9 h1 {
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     padding-top: 6vw;
@@ -987,7 +961,7 @@
     font-size: 4.5vw;
   }
 
-  .questionAnswer15P10 h1{
+  .questionAnswer15P10 h1 {
     padding-left: 1vw;
     padding-right: 1vw;
     margin-left: 4vw;
@@ -995,7 +969,7 @@
     font-size: 4.5vw;
   }
 
-  .questionAnswer15P11 h1{
+  .questionAnswer15P11 h1 {
     padding-left: 1.3vw;
     padding-right: 1.3vw;
     padding-top: 6vw;
@@ -1006,30 +980,29 @@
   }
 
   .questionAnswer15 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer15 label{
+
+  .questionAnswer15 label {
     margin-top: 6vw;
   }
-  
-  
-  .questionAnswer15 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer15 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer15 input[type="checkbox"] {
+    display: none;
   }
 
-  .questionAnswer15 input[type="checkbox"]:not(:checked)+h1{
+  .questionAnswer15 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer15 input[type="checkbox"]:not(:checked) + h1 {
     background-color: black;
-    color: white ;
+    color: white;
   }
 
-  .questionTitle16{
+  .questionTitle16 {
     font-size: 6vw;
     padding-top: 2.5vw;
     padding-bottom: -1vw;
@@ -1037,13 +1010,13 @@
     margin-right: 2vw;
   }
 
-  .questionAnswer16 h1{
-    display:inline-block;
+  .questionAnswer16 h1 {
+    display: inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -1051,204 +1024,330 @@
     padding-bottom: 3vw;
   }
 
-  .questionAnswer16P2 h1{
+  .questionAnswer16P2 h1 {
     padding-left: 6vw;
     padding-right: 6vw;
   }
 
-  .questionAnswer16P3 h1{
+  .questionAnswer16P3 h1 {
     padding-left: 21vw;
     padding-right: 21vw;
   }
 
-  .questionAnswer16P4 h1{
+  .questionAnswer16P4 h1 {
     padding-left: 20vw;
     padding-right: 20vw;
   }
 
-  .questionAnswer16P5 h1{
+  .questionAnswer16P5 h1 {
     padding-left: 10vw;
     padding-right: 10vw;
   }
 
-  .questionAnswer16P6 h1{
+  .questionAnswer16P6 h1 {
     padding-left: 22.5vw;
     padding-right: 22.5vw;
   }
 
   .questionAnswer16 h1:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer16 label{
+
+  .questionAnswer16 label {
     margin-top: 6vw;
   }
-  
-  
-  .questionAnswer16 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer16 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer16 input[type="checkbox"] {
+    display: none;
   }
 
-  .questionAnswer16 input[type="checkbox"]:not(:checked)+h1{
+  .questionAnswer16 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer16 input[type="checkbox"]:not(:checked) + h1 {
     background-color: black;
-    color: white ;
+    color: white;
   }
 
- 
+  .button Button {
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 6vw;
+    font-weight: bold;
+    background-color: #56e100;
+    margin-bottom: 25vw;
+    margin-top: 1vw;
+  }
 
- .button Button{
-  border: 0.8vw solid #56E100;
-  border-radius: 5vw;
-  color: black;
-  text-align: center;
-  display: inline-block;
-  font-size: 6vw;
-  font-weight: bold;
-  background-color: #56E100;
-  margin-bottom: 25vw;
-  margin-top: 1vw;
- }
+  .icon {
+    margin-left: 32vw;
+    margin-right: 32vw;
+  }
 
- .icon {
-  margin-left: 32vw;
-  margin-right: 32vw;
- }
+  .icon2 {
+    margin-left: 27vw;
+    margin-top: -18vw;
+    width: 50vw;
+    height: 50vw;
+  }
 
- .icon2 {
-   margin-left: 27vw;
-   margin-top: -18vw;
-   width: 50vw;
-   height: 50vw;
- }
+  .barName h1 {
+    color: white;
+    font: Arial;
+    font-weight: bold;
+    font-size: 9vw;
+    margin-left: 17vw;
+    margin-top: -15vw;
+  }
 
- .barName h1{
-  color: white;
-  font: Arial;
-  font-weight: bold;
-  font-size: 9vw;
-  margin-left: 17vw;
-  margin-top: -15vw;
- }
+  .menuBox {
+    margin-left: 43vw;
+    border-radius: 5vw;
+    background-color: #56e100;
+  }
 
- .menuBox{
-   margin-left: 43vw;
-   border-radius: 5vw;
-   background-color: #56E100;
- }
+  .menuBoxP2 span {
+    margin-top: 3vw;
+    color: white;
+    margin-left: 39vw;
+    display: inline-block;
+    font-size: 5.5vw;
+    font-weight: bold;
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    padding: 2.5vw;
+  }
 
- .menuBoxP2 span{
-  margin-top: 3vw; 
-  color: white;
-  margin-left: 39vw;
-  display: inline-block;
-  font-size: 5.5vw;
-  font-weight: bold;
-  border: 0.8vw solid #56E100;
-  border-radius: 5vw;
-  padding: 2.5vw;
- }
+  .menuBoxP4 span {
+    margin-top: 2vw;
+    color: white;
+    margin-left: 38.2vw;
+    display: inline-block;
+    font-size: 5.5vw;
+    font-weight: bold;
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    padding: 2.5vw;
+  }
 
- .menuBoxP4 span{
-  margin-top: 2vw; 
-  color: white;
-  margin-left: 38.2vw;
-  display: inline-block;
-  font-size: 5.5vw;
-  font-weight: bold;
-  border: 0.8vw solid #56E100;
-  border-radius: 5vw;
-  padding: 2.5vw;
- }
+  .menuBoxP3 h1 {
+    color: white;
+    margin-left: 33vw;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    padding: 2.5vw;
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+  }
 
- .menuBoxP3 h1{
-  color: white;
-  margin-left: 33vw;
-  text-align: center;
-  font-size: 5vw;
-  font-weight: bold;
-  padding: 2.5vw;
-  border: 0.8vw solid #56E100;
-  border-radius: 5vw;
- }
+  .menuBoxP5 h1 {
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    color: white;
+    margin-left: 32vw;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    margin-top: 8vw;
+    margin-bottom: 150vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
 
- .menuBoxP5 h1{
-  border: 0.8vw solid #56E100;
-  border-radius: 5vw;
-  color: white;
-  margin-left: 32vw;
-  text-align: center;
-  font-size: 5vw;
-  font-weight: bold;
-  margin-top: 8vw;
-  margin-bottom: 150vw;
-  padding-left: 7vw;
-  padding-right: 7vw;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
- }
+  .loginPageTitle span {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 10vw;
+    font-weight: bold;
+    margin-top: 10vw;
+    font-weight: bold;
+    font: Arial;
+  }
 
- .loginPageTitle span{
-  display: inline-block;
-  color: white;
-  text-align: center;
-  font-size: 10vw;
-  font-weight: bold;
-  margin-top: 10vw;
-  font-weight: bold;
-  font: Arial;
- }
+  .loginPageSecondary span {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 5.5vw;
+    font-weight: bold;
+    font: Arial;
+  }
 
- .loginPageSecondary span{
-  display: inline-block;
-  color: white;
-  text-align: center;
-  font-size: 5.5vw;
-  font-weight: bold;
-  font: Arial;
- }
+  .labeladmin {
+    color: white;
+    font-size: 5.5vw;
+    font-weight: bold;
+    text-align: center;
+    font: Arial;
+    padding: 5vw;
+    display: grid;
+    margin-bottom: -6vw;
+  }
 
- .labeladmin {
-  color: white;
-  font-size: 5.5vw;
-  font-weight: bold;
-  text-align: center;
-  font: Arial;
-  padding: 5vw;
-  display: grid;
-  margin-bottom: -6vw;
- }
+  .labeladmin Button {
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 6vw;
+    font-weight: bold;
+    background-color: black;
+    padding: 3vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 100vw;
+  }
 
- .labeladmin Button{
-  border: 0.8vw solid #56E100;
-  border-radius: 5vw;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  font-size: 6vw;
-  font-weight: bold;
-  background-color: black;
-  padding: 3vw;
-  margin-left: 7vw;
-  margin-right: 7vw;
-  margin-bottom: 100vw;
- }
+  .admin {
+    background-color: black;
+  }
 
+  .button Button {
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 6vw;
+    font-weight: bold;
+    background-color: #56e100;
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+  }
 
- .admin{
-   background-color: black;
- }
+  .icon {
+    margin-left: 32vw;
+    margin-right: 32vw;
+  }
 
+  .icon2 {
+    margin-left: 3vw;
+  }
 
+  .barName span {
+    color: white;
+    font: Arial;
+    font-weight: bold;
+    font-size: 5vw;
+  }
+  .menuBox {
+    margin-left: 42vw;
+    border-radius: 5vw;
+    background-color: #56e100;
+  }
+
+  .menuBoxP2 span {
+    margin-top: 3vw;
+    color: white;
+    margin-left: 39vw;
+    display: inline-block;
+    font-size: 5.5vw;
+    font-weight: bold;
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    padding: 2.5vw;
+  }
+
+  .menuBoxP4 span {
+    margin-top: 2vw;
+    color: white;
+    margin-left: 38.2vw;
+    display: inline-block;
+    font-size: 5.5vw;
+    font-weight: bold;
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    padding: 2.5vw;
+  }
+
+  .menuBoxP3 h1 {
+    color: white;
+    margin-left: 33vw;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    padding: 2.5vw;
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+  }
+
+  .menuBoxP5 h1 {
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    color: white;
+    margin-left: 32vw;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    margin-top: 8vw;
+    margin-bottom: 150vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  .loginPageTitle span {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 10vw;
+    font-weight: bold;
+    margin-top: 10vw;
+    font-weight: bold;
+    font: Arial;
+  }
+
+  .loginPageSecondary span {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 5.5vw;
+    font-weight: bold;
+    font: Arial;
+  }
+
+  .labeladmin {
+    color: white;
+    font-size: 5.5vw;
+    font-weight: bold;
+    text-align: center;
+    font: Arial;
+    padding: 5vw;
+    display: grid;
+    margin-bottom: -6vw;
+  }
+
+  .labeladmin Button {
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 6vw;
+    font-weight: bold;
+    background-color: black;
+    padding: 3vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 100vw;
+  }
+
+  .admin {
+    background-color: black;
+  }
 }
-
-
-
 
 @media (max-width: 1920px) and (min-width: 1280px) {
   .formHeaders {
@@ -1259,21 +1358,21 @@
     text-align: center;
   }
 
-  .inputLabels{
+  .inputLabels {
     font-size: 2.3vw;
     padding-bottom: 1vw;
     display: grid;
   }
 
-  .questionTitle1{
+  .questionTitle1 {
     font-size: 2.3vw;
     margin-bottom: -2vw;
     margin-top: 2.6vw;
   }
-  
-  .questionAnswer1 span{
+
+  .questionAnswer1 span {
     font-size: 2vw;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 3vw;
     padding-right: 3.5vw;
     padding-left: 3.5vw;
@@ -1281,40 +1380,39 @@
     padding-bottom: 1vw;
     color: white;
   }
-  
+
   .questionAnswer1 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer1 label{
+
+  .questionAnswer1 label {
     margin-top: 4vw;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
   }
-  
-  .questionAnswer1 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer1 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
-  }
-  
 
-  .questionTitle2{
+  .questionAnswer1 input[type="radio"] {
+    display: none;
+  }
+
+  .questionAnswer1 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle2 {
     font-size: 2.3vw;
     padding-top: 2.5vw;
     margin-bottom: -2.5vw;
     margin-top: 2vw;
   }
-  
-  .questionAnswer2 span{
+
+  .questionAnswer2 span {
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
@@ -1323,54 +1421,53 @@
     margin-right: 1vw;
   }
 
-  .questionAnswer2P2 span{
-    padding-left: 6vw;
-    padding-right: 6vw;
-  }
-  
-  .questionAnswer2P3 span{
+  .questionAnswer2P2 span {
     padding-left: 6vw;
     padding-right: 6vw;
   }
 
-  .questionAnswer2P4 span{
+  .questionAnswer2P3 span {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .questionAnswer2P4 span {
     padding-left: 3vw;
     padding-right: 3vw;
     font-size: 2vw;
   }
 
   .questionAnswer2 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer2 label{
+
+  .questionAnswer2 label {
     margin-top: 4.5vw;
   }
-  
-  .questionAnswer2 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer2 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer2 input[type="radio"] {
+    display: none;
   }
 
+  .questionAnswer2 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
 
-  .questionTitle3{
-    font-size:2.3vw;
+  .questionTitle3 {
+    font-size: 2.3vw;
     padding-top: 2.5vw;
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 2vw;
   }
 
-  .questionAnswer3 span{
+  .questionAnswer3 span {
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
@@ -1380,27 +1477,27 @@
     margin-left: 1vw;
     margin-right: 1vw;
   }
-  
+
   .questionAnswer3 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionAnswer3 label{
+  .questionAnswer3 label {
     margin-bottom: 2.5vw;
     margin-top: 2vw;
   }
-  
-  .questionAnswer3 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer3 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer3 input[type="radio"] {
+    display: none;
   }
 
-  .questionTitle4{
+  .questionAnswer3 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle4 {
     font-size: 2.3vw;
     padding-top: 1.2vw;
     margin-bottom: -1vw;
@@ -1409,13 +1506,13 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer4 span{
-    display:inline-block;
+  .questionAnswer4 span {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
@@ -1423,37 +1520,36 @@
     margin-right: 1vw;
   }
 
-  .questionAnswer4P2 span{
+  .questionAnswer4P2 span {
     padding-left: 7.5vw;
     padding-right: 7.5vw;
   }
 
-  .questionAnswer4P3 span{
+  .questionAnswer4P3 span {
     padding-left: 2vw;
     padding-right: 2vw;
   }
-  
+
   .questionAnswer4 span:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer4 label{
-    margin-top: 2vw;
-  }
-  
-  
-  .questionAnswer4 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer4 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionTitle5{
-    font-size:2.3vw;
+  .questionAnswer4 label {
+    margin-top: 2vw;
+  }
+
+  .questionAnswer4 input[type="radio"] {
+    display: none;
+  }
+
+  .questionAnswer4 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle5 {
+    font-size: 2.3vw;
     padding-top: 3vw;
     margin-bottom: -0.5vw;
     margin-left: 2vw;
@@ -1461,14 +1557,13 @@
     margin-top: 2vw;
   }
 
-
-  .questionAnswer5 h1{
+  .questionAnswer5 h1 {
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     background-color: black;
     color: white;
@@ -1477,46 +1572,49 @@
     font-weight: bold;
   }
 
-  .questionAnswer5P2 h1{
+  .questionAnswer5P2 h1 {
     font-size: 1.7vw;
     padding-left: 1vw;
     padding-right: 1vw;
   }
 
-  .questionAnswer5P3 h1{
-    font-size:1.7vw;
+  .questionAnswer5P3 h1 {
+    font-size: 1.7vw;
     padding-left: 1vw;
     padding-right: 1vw;
   }
 
-  .questionAnswer5P4 h1{
+  .questionAnswer5P4 h1 {
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  
+
   .questionAnswer5 h1:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer5 label{
+
+  .questionAnswer5 label {
     border-radius: 5vw;
     margin-top: 2vw;
   }
-  
-  
-  .questionAnswer5 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer5 input[type="radio"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer5 input[type="radio"] {
+    display: none;
   }
 
+  .questionAnswer5 input[type="radio"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
+  }
 
-  .questionTitle55{
-    font-size:2.3vw;
+  .questionAnswer5 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle55 {
+    font-size: 2.3vw;
     padding-top: 3vw;
     margin-bottom: -1vw;
     margin-left: 18vw;
@@ -1524,13 +1622,13 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer55 span{
-    display:inline-block;
+  .questionAnswer55 span {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
@@ -1538,47 +1636,45 @@
     margin-right: 1vw;
   }
 
-  .questionAnswer55P2 span{
+  .questionAnswer55P2 span {
     padding-left: 9vw;
     padding-right: 9vw;
   }
 
-  .questionAnswer55P3 span{
+  .questionAnswer55P3 span {
     padding-left: 1vw;
     padding-right: 1vw;
     font-size: 1.9vw;
   }
-  .questionAnswer55P4 span{
+  .questionAnswer55P4 span {
     padding-left: 8.5vw;
     padding-right: 8.5vw;
   }
-  .questionAnswer55P5 span{
+  .questionAnswer55P5 span {
     padding-left: 4.55vw;
     padding-right: 4.5vw;
   }
-  
+
   .questionAnswer55 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer55 label{
+
+  .questionAnswer55 label {
     margin-top: 2vw;
   }
-  
-  
-  .questionAnswer55 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer55 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer55 input[type="radio"] {
+    display: none;
   }
 
+  .questionAnswer55 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
 
-  .questionTitle6{
-    font-size:2.3vw;
+  .questionTitle6 {
+    font-size: 2.3vw;
     padding-top: 2.5vw;
     margin-bottom: -1vw;
     margin-left: 2vw;
@@ -1586,13 +1682,13 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer6 h1{
-    display:inline-block;
+  .questionAnswer6 h1 {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -1600,56 +1696,55 @@
     padding-bottom: 1vw;
   }
 
-  .questionAnswer6P2 h1{
+  .questionAnswer6P2 h1 {
     padding-left: 8vw;
     padding-right: 8vw;
     margin-right: -0.3vw;
   }
 
-  .questionAnswer6P3 h1{
+  .questionAnswer6P3 h1 {
     padding-left: 7.2vw;
     padding-right: 7.2vw;
   }
-  .questionAnswer6P4 h1{
+  .questionAnswer6P4 h1 {
     padding-left: 9.3vw;
     padding-right: 9.3vw;
   }
-  .questionAnswer6P5 h1{
+  .questionAnswer6P5 h1 {
     padding-left: 4.5vw;
     padding-right: 4.5vw;
   }
 
-  .questionAnswer6 label{
+  .questionAnswer6 label {
     margin-top: 2vw;
   }
 
-  .questionAnswer6 h1:hover{
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  
-  .questionAnswer6 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer6 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
+  .questionAnswer6 h1:hover {
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionAnswer6 input[type="checkbox"]:not(:checked)+h1{
+  .questionAnswer6 input[type="checkbox"] {
+    display: none;
+  }
+
+  .questionAnswer6 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer6 input[type="checkbox"]:not(:checked) + h1 {
     background-color: black;
-    color: white ;
+    color: white;
   }
 
-  .questionAnswer6 input[type="checkbox"]:not(:checked):hover+h1{
-    background-color: #56E100;
-    color: black ;
+  .questionAnswer6 input[type="checkbox"]:not(:checked):hover + h1 {
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionTitle77{
-    font-size:2.3vw;
+  .questionTitle77 {
+    font-size: 2.3vw;
     padding-top: 2.5vw;
     margin-bottom: -1vw;
     margin-left: 8.4vw;
@@ -1657,13 +1752,13 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer77 h1{
-    display:inline-block;
+  .questionAnswer77 h1 {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     margin-left: 1vw;
     margin-right: 1vw;
@@ -1671,59 +1766,58 @@
     padding-bottom: 1vw;
   }
 
-  .questionAnswer77P2 h1{
+  .questionAnswer77P2 h1 {
     padding-left: 6vw;
     padding-right: 6vw;
   }
-  
-  .questionAnswer77P3 h1{
+
+  .questionAnswer77P3 h1 {
     padding-left: 5vw;
     padding-right: 5vw;
   }
-  
+
   .questionAnswer77 h1:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
 
-  
-  .questionAnswer77 label{
+  .questionAnswer77 label {
     margin-top: 2vw;
   }
-  
-  .questionAnswer77 input[type="radio"]{
-    display: none;  
+
+  .questionAnswer77 input[type="radio"] {
+    display: none;
   }
-  
-  .questionAnswer77 input[type="radio"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer77 input[type="radio"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
   }
-  .questionAnswer77 input[type="radio"]:not(:checked)+h1{
+  .questionAnswer77 input[type="radio"]:not(:checked) + h1 {
     background-color: black;
-    color: white ;
+    color: white;
   }
 
-  .questionAnswer77 input[type="radio"]:not(:checked):hover+h1{
-    background-color: #56E100;
-    color: black ;
+  .questionAnswer77 input[type="radio"]:not(:checked):hover + h1 {
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionTitle7{
-    font-size:2.3vw;
+  .questionTitle7 {
+    font-size: 2.3vw;
     padding-top: 2.5vw;
     margin-bottom: -1vw;
     margin-left: 2vw;
     margin-right: 3vw;
     margin-top: 2vw;
   }
-  .questionAnswer7 span{
-    display:inline-block;
+  .questionAnswer7 span {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.8vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -1731,42 +1825,40 @@
     padding-bottom: 2.8vw;
   }
 
-  .questionAnswer7P2 span{
+  .questionAnswer7P2 span {
     padding-left: 9vw;
     padding-right: 9vw;
   }
-  
-  
+
   .questionAnswer7 span:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer7 label{
-    margin-top:2vw;
-  }
-  
-  
-  .questionAnswer7 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer7 input[type="checkbox"]:checked+span{
-    background-color: #56E100;
-    color: black ;
-  }
-  .questionAnswer7 input[type="checkbox"]:not(:checked)+span{
-    background-color: black;
-    color: white ;
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionAnswer8 h1{
-    display:inline-block;
+  .questionAnswer7 label {
+    margin-top: 2vw;
+  }
+
+  .questionAnswer7 input[type="checkbox"] {
+    display: none;
+  }
+
+  .questionAnswer7 input[type="checkbox"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+  .questionAnswer7 input[type="checkbox"]:not(:checked) + span {
+    background-color: black;
+    color: white;
+  }
+
+  .questionAnswer8 h1 {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     margin-left: 1vw;
     margin-right: 1vw;
@@ -1774,254 +1866,247 @@
     padding-bottom: 1vw;
   }
 
-  .questionAnswer8P2 h1{
+  .questionAnswer8P2 h1 {
     padding-left: 10vw;
     padding-right: 10vw;
   }
 
-  .questionAnswer8P3 h1{
+  .questionAnswer8P3 h1 {
     padding-left: 7vw;
     padding-right: 7vw;
   }
-  .questionAnswer8P4 h1{
+  .questionAnswer8P4 h1 {
     padding-left: 2vw;
     padding-right: 2vw;
   }
-  .questionAnswer8P5 h1{
+  .questionAnswer8P5 h1 {
     padding-left: 5vw;
     padding-right: 5vw;
   }
-  .questionAnswer8P6 h1{
+  .questionAnswer8P6 h1 {
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  
+
   .questionAnswer8 h1:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer8 label{
+
+  .questionAnswer8 label {
     margin-top: 2vw;
   }
-  
-  
-  .questionAnswer8 input[type="checkbox"]{
-    display: none;  
+
+  .questionAnswer8 input[type="checkbox"] {
+    display: none;
   }
-  
-  .questionAnswer8 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer8 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
   }
-  .questionAnswer8 input[type="checkbox"]:not(:checked)+h1{
+  .questionAnswer8 input[type="checkbox"]:not(:checked) + h1 {
     background-color: black;
-    color: white ;
+    color: white;
   }
 
-  .questionAnswer8 input[type="checkbox"]:not(:checked):hover+h1{
-    background-color: #56E100;
-    color: black ;
+  .questionAnswer8 input[type="checkbox"]:not(:checked):hover + h1 {
+    background-color: #56e100;
+    color: black;
   }
 
-
-  .questionAnswer9 span{
-    display:inline-block;
+  .questionAnswer9 span {
+    display: inline-block;
     font-size: 1.8vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     padding-top: 1vw;
-    padding-bottom:1vw;
+    padding-bottom: 1vw;
     margin-right: 1vw;
     margin-left: 1vw;
   }
 
-  .questionAnswer9P2 span{
+  .questionAnswer9P2 span {
     padding-left: 8vw;
     padding-right: 8vw;
   }
 
-  .questionAnswer9P3 span{
+  .questionAnswer9P3 span {
     padding-left: 3vw;
-    padding-right:3vw;
+    padding-right: 3vw;
   }
 
-  .questionAnswer9P4 span{
+  .questionAnswer9P4 span {
     padding-left: 5vw;
     padding-right: 5vw;
   }
 
-  .questionAnswer9P5 span{
+  .questionAnswer9P5 span {
     padding-left: 10.5vw;
     padding-right: 10.5vw;
   }
 
-  .questionAnswer9P6 span{
+  .questionAnswer9P6 span {
     padding-left: 12.5vw;
-    padding-right:12.5vw;
+    padding-right: 12.5vw;
     margin-bottom: 2vw;
   }
-  
+
   .questionAnswer9 span:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer9 label{
-    margin-top: 2vw;
-  }
-  
-  
-  .questionAnswer9 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer9 input[type="radio"]:checked+span{
-    background-color: #56E100;
+    background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer10 span{
-    display:inline-block;
+  .questionAnswer9 label {
+    margin-top: 2vw;
+  }
+
+  .questionAnswer9 input[type="radio"] {
+    display: none;
+  }
+
+  .questionAnswer9 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer10 span {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     margin-top: 1vw;
     margin-left: 1vw;
-    margin-right:1vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    padding-left:8vw;
-    padding-right: 8vw;
-  }
-  
-  .questionAnswer10 span:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer10 label{
-    margin-top: 2vw;
-    margin-bottom: 3vw;
-  }
-  
-  
-  .questionAnswer10 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer10 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
-  }
-
-  .questionAnswer11 span{
-    display:inline-block;
-    font-size: 2vw;
-    grid-template-columns: auto 1fr;
-    justify-items: center;
-    color: white;
-    border: 0.5vw solid #56E100;
-    border-radius: 5vw;
-    margin-left: 1vw;
     margin-right: 1vw;
-   
     padding-top: 1vw;
     padding-bottom: 1vw;
     padding-left: 8vw;
     padding-right: 8vw;
   }
-  
-  .questionAnswer11 span:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer11 label{
-    margin-top: 4vw;
-  }
-  
-  
-  .questionAnswer11 input[type="radio"]{
-    display: none;  
-  }
-  
-  .questionAnswer11 input[type="radio"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer10 span:hover {
+    background-color: #56e100;
+    color: black;
   }
 
-  .questionTitle12{
+  .questionAnswer10 label {
+    margin-top: 2vw;
+    margin-bottom: 3vw;
+  }
+
+  .questionAnswer10 input[type="radio"] {
+    display: none;
+  }
+
+  .questionAnswer10 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer11 span {
+    display: inline-block;
+    font-size: 2vw;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    color: white;
+    border: 0.5vw solid #56e100;
+    border-radius: 5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+
+  .questionAnswer11 span:hover {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer11 label {
+    margin-top: 4vw;
+  }
+
+  .questionAnswer11 input[type="radio"] {
+    display: none;
+  }
+
+  .questionAnswer11 input[type="radio"]:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle12 {
     font-size: 2.3vw;
     padding-top: 5vw;
     margin-bottom: -1vw;
     margin-top: 2vw;
   }
 
-  .questionAnswer12 span{
-    display:inline-block;
+  .questionAnswer12 span {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
-    margin-left:1vw;
+    margin-left: 1vw;
     margin-right: 1vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
   }
 
-  .questionAnswer12P2 span{
+  .questionAnswer12P2 span {
     padding-left: 10vw;
     padding-right: 10vw;
   }
 
-  .questionAnswer12P3 span{
+  .questionAnswer12P3 span {
     padding-left: 11vw;
     padding-right: 11vw;
   }
 
-  .questionAnswer12P4 span{
+  .questionAnswer12P4 span {
     padding-left: 12vw;
     padding-right: 12vw;
   }
-  
+
   .questionAnswer12 span:hover {
-    background-color: #56E100;
-    color: black ;
+    background-color: #56e100;
+    color: black;
   }
-  
-  .questionAnswer12 label{
+
+  .questionAnswer12 label {
     margin-top: 3vw;
   }
-  
-  
-  .questionAnswer12 input[type="checkbox"]{
-    display: none;  
+
+  .questionAnswer12 input[type="checkbox"] {
+    display: none;
   }
-  
-  .questionAnswer12 input[type="checkbox"]:checked+span{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer12 input[type="checkbox"]:checked + span {
+    background-color: #56e100;
+    color: black;
   }
-  .questionAnswer12 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer12 input[type="checkbox"]:not(:checked) + span {
     background-color: black;
-    color: white ;
+    color: white;
   }
-  .questionAnswer12 input[type="checkbox"]:not(:checked):hover+span{
-    background-color: #56E100;
-    color: black ;
+  .questionAnswer12 input[type="checkbox"]:not(:checked):hover + span {
+    background-color: #56e100;
+    color: black;
   }
 
-
-  .questionTitle13{
+  .questionTitle13 {
     font-size: 2.3vw;
     padding-top: 4.5vw;
     padding-bottom: -1vw;
@@ -2030,13 +2115,13 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer13 h1{
-    display:inline-block;
+  .questionAnswer13 h1 {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     margin-left: 1vw;
     margin-right: 1vw;
@@ -2044,96 +2129,92 @@
     padding-bottom: 1vw;
   }
 
-  .questionAnswer13P2 h1{
+  .questionAnswer13P2 h1 {
     padding-left: 4.3vw;
     padding-right: 4.3vw;
     margin-right: 1.5vw;
-    
   }
 
-  .questionAnswer13P3 h1{
+  .questionAnswer13P3 h1 {
     padding-left: 8vw;
     padding-right: 8vw;
     margin-left: 1vw;
   }
 
-  .questionAnswer13P4 h1{
+  .questionAnswer13P4 h1 {
     padding-left: 6.5vw;
     padding-right: 6.5vw;
     margin-right: 1vw;
   }
 
-  .questionAnswer13P5 h1{
+  .questionAnswer13P5 h1 {
     padding-left: 10.5vw;
     padding-right: 10.5vw;
     margin-left: 1.5vw;
   }
 
-  .questionAnswer13P6 h1{
+  .questionAnswer13P6 h1 {
     padding-left: 10vw;
     padding-right: 10vw;
     margin-right: 1.3vw;
   }
 
-  .questionAnswer13P7 h1{
+  .questionAnswer13P7 h1 {
     padding-left: 8vw;
-    padding-right:8vw;
+    padding-right: 8vw;
     margin-left: 1vw;
   }
 
-  .questionAnswer13P8 h1{
+  .questionAnswer13P8 h1 {
     padding-left: 8.8vw;
     padding-right: 8.8vw;
-    
   }
 
-  .questionAnswer13P9 h1{
+  .questionAnswer13P9 h1 {
     padding-left: 6.5vw;
     padding-right: 6.5vw;
   }
 
-  .questionAnswer13P10 h1{
+  .questionAnswer13P10 h1 {
     font-size: 1.9vw;
     padding-left: 2vw;
     padding-right: 2vw;
     margin-right: 1vw;
-    
   }
-  .questionAnswer13P11 h1{
+  .questionAnswer13P11 h1 {
     padding-left: 15vw;
     padding-right: 15vw;
   }
-  
+
   .questionAnswer13 h1:hover {
-    background-color: #56E100;
+    background-color: #56e100;
     color: black;
   }
-  
-  .questionAnswer13 label{
+
+  .questionAnswer13 label {
     margin-top: 3vw;
   }
-  
-  
-  .questionAnswer13 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer13 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
+
+  .questionAnswer13 input[type="checkbox"] {
+    display: none;
   }
 
-  .questionAnswer13 input[type="checkbox"]:not(:checked)+h1{
-    background-color: black;
-    color: white ;
-  }
-
-  .questionAnswer13 input[type="checkbox"]:not(:checked):hover+h1{
-    background-color: #56E100;
+  .questionAnswer13 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
     color: black;
   }
 
-  .questionTitle14{
+  .questionAnswer13 input[type="checkbox"]:not(:checked) + h1 {
+    background-color: black;
+    color: white;
+  }
+
+  .questionAnswer13 input[type="checkbox"]:not(:checked):hover + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle14 {
     font-size: 2.3vw;
     padding-top: 3.5vw;
     padding-bottom: -1vw;
@@ -2142,79 +2223,76 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer14 h1{
-    display:inline-block;
+  .questionAnswer14 h1 {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
   }
 
-  .questionAnswer14P2 h1{
+  .questionAnswer14P2 h1 {
     padding-left: 2vw;
     padding-right: 2vw;
     margin-right: 1vw;
   }
 
-  .questionAnswer14P3 h1{
+  .questionAnswer14P3 h1 {
     padding-left: 7vw;
     padding-right: 7vw;
     margin-left: 1vw;
   }
 
-  .questionAnswer14P4 h1{
+  .questionAnswer14P4 h1 {
     padding-left: 5vw;
     padding-right: 5vw;
     margin-right: 1vw;
   }
 
-  .questionAnswer14P5 h1{
+  .questionAnswer14P5 h1 {
     padding-left: 9.3vw;
     padding-right: 9.3vw;
     margin-left: 1vw;
   }
 
-  .questionAnswer14P6 h1{
+  .questionAnswer14P6 h1 {
     padding-left: 7.5vw;
     padding-right: 7.5vw;
   }
 
   .questionAnswer14 h1:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer14 label{
-    margin-top: 3vw;
-  }
-  
-  
-  .questionAnswer14 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer14 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
-  }
-
-  .questionAnswer14 input[type="checkbox"]:not(:checked)+h1{
-    background-color: black;
-    color: white ;
-  }
-
-  .questionAnswer14 input[type="checkbox"]:not(:checked):hover+h1{
-    background-color: #56E100;
+    background-color: #56e100;
     color: black;
   }
 
+  .questionAnswer14 label {
+    margin-top: 3vw;
+  }
 
+  .questionAnswer14 input[type="checkbox"] {
+    display: none;
+  }
 
-  .questionTitle15{
+  .questionAnswer14 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer14 input[type="checkbox"]:not(:checked) + h1 {
+    background-color: black;
+    color: white;
+  }
+
+  .questionAnswer14 input[type="checkbox"]:not(:checked):hover + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle15 {
     font-size: 2.5vw;
     padding-top: 3vw;
     padding-bottom: -1vw;
@@ -2223,13 +2301,13 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer15 h1{
-    display:inline-block;
+  .questionAnswer15 h1 {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
@@ -2237,89 +2315,87 @@
     padding-bottom: 1.5vw;
   }
 
-  .questionAnswer15P2 h1{
+  .questionAnswer15P2 h1 {
     padding-left: 5.5vw;
     padding-right: 5.5vw;
     font-size: 1.8vw;
   }
 
-  .questionAnswer15P3 h1{
+  .questionAnswer15P3 h1 {
     padding-left: 1.8vw;
     padding-right: 1.8vw;
     font-size: 1.9vw;
   }
 
-  .questionAnswer15P4 h1{
+  .questionAnswer15P4 h1 {
     padding-left: 19.2vw;
     padding-right: 19.2vw;
   }
 
-  .questionAnswer15P5 h1{
+  .questionAnswer15P5 h1 {
     padding-left: 2.6vw;
     padding-right: 2.6vw;
   }
 
-  .questionAnswer15P6 h1{
+  .questionAnswer15P6 h1 {
     padding-left: 4.8vw;
     padding-right: 4.8vw;
   }
 
-  .questionAnswer15P7 h1{
+  .questionAnswer15P7 h1 {
     padding-left: 3vw;
     padding-right: 3vw;
   }
 
-  .questionAnswer15P8 h1{
+  .questionAnswer15P8 h1 {
     padding-left: 7.5vw;
     padding-right: 7.5vw;
   }
 
-  .questionAnswer15P9 h1{
+  .questionAnswer15P9 h1 {
     padding-left: 10.2vw;
     padding-right: 10.2vw;
-  
   }
 
-  .questionAnswer15P10 h1{
+  .questionAnswer15P10 h1 {
     padding-left: 3.5vw;
     padding-right: 3.5vw;
   }
 
-  .questionAnswer15P11 h1{
+  .questionAnswer15P11 h1 {
     padding-left: 10.3vw;
     padding-right: 10.3vw;
   }
 
   .questionAnswer15 h1:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer15 label{
-    margin-top: 3vw;
-  }
-  
-  
-  .questionAnswer15 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer15 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
-  }
-
-  .questionAnswer15 input[type="checkbox"]:not(:checked)+h1{
-    background-color: black;
-    color: white ;
-  }
-
-  .questionAnswer15 input[type="checkbox"]:not(:checked):hover+h1{
-    background-color: #56E100;
+    background-color: #56e100;
     color: black;
   }
 
-  .questionTitle16{
+  .questionAnswer15 label {
+    margin-top: 3vw;
+  }
+
+  .questionAnswer15 input[type="checkbox"] {
+    display: none;
+  }
+
+  .questionAnswer15 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer15 input[type="checkbox"]:not(:checked) + h1 {
+    background-color: black;
+    color: white;
+  }
+
+  .questionAnswer15 input[type="checkbox"]:not(:checked):hover + h1 {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionTitle16 {
     font-size: 2.3vw;
     padding-top: 3vw;
     padding-bottom: -1vw;
@@ -2328,268 +2404,261 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer16 h1{
-    display:inline-block;
+  .questionAnswer16 h1 {
+    display: inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.5vw solid #56E100;
+    border: 0.5vw solid #56e100;
     border-radius: 5vw;
     padding-top: 1.5vw;
     padding-bottom: 1.5vw;
   }
 
-  .questionAnswer16P2 h1{
+  .questionAnswer16P2 h1 {
     padding-left: 3vw;
     padding-right: 3vw;
     margin-right: 2vw;
   }
 
-  .questionAnswer16P3 h1{
+  .questionAnswer16P3 h1 {
     padding-left: 8.5vw;
     padding-right: 8.5vw;
   }
 
-  .questionAnswer16P4 h1{
+  .questionAnswer16P4 h1 {
     padding-left: 8.2vw;
     padding-right: 8.2vw;
     margin-right: 2vw;
   }
 
-  .questionAnswer16P5 h1{
+  .questionAnswer16P5 h1 {
     padding-left: 4.8vw;
     padding-right: 4.8vw;
   }
 
-  .questionAnswer16P6 h1{
+  .questionAnswer16P6 h1 {
     padding-left: 9.5vw;
     padding-right: 9.5vw;
   }
 
   .questionAnswer16 h1:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
-  .questionAnswer16 label{
-    margin-top: 3vw;
-  }
-  
-  
-  .questionAnswer16 input[type="checkbox"]{
-    display: none;  
-  }
-  
-  .questionAnswer16 input[type="checkbox"]:checked+h1{
-    background-color: #56E100;
-    color: black ;
-  }
-
-  .questionAnswer16 input[type="checkbox"]:not(:checked)+h1{
-    background-color: black;
-    color: white ;
-  }
-
-  .questionAnswer16 input[type="checkbox"]:not(:checked):hover+h1{
-    background-color: #56E100;
+    background-color: #56e100;
     color: black;
   }
 
- 
+  .questionAnswer16 label {
+    margin-top: 3vw;
+  }
 
- .button Button{
-  border: 0.5vw solid #56E100;
-  border-radius: 5vw;
-  color: black;
-  text-align: center;
-  display: inline-block;
-  font-size: 3vw;
-  font-weight: bold;
-  background-color: #56E100;
-  margin-bottom: 5vw;
-  margin-top: 3vw;
- }
+  .questionAnswer16 input[type="checkbox"] {
+    display: none;
+  }
 
- .icon {
-  margin-left: 38vw;
-  margin-right: 1vw;
-  width: 25vw;
-  height: 10vw;
- }
+  .questionAnswer16 input[type="checkbox"]:checked + h1 {
+    background-color: #56e100;
+    color: black;
+  }
 
- .icon2 {
-  margin-left: 29vw;
-  margin-top: -9vw;
-  width: 15vw;
-  height: 10vw;
- }
+  .questionAnswer16 input[type="checkbox"]:not(:checked) + h1 {
+    background-color: black;
+    color: white;
+  }
 
- .barName h1{
-  color: white;
-  font: Arial;
-  font-weight: bold;
-  font-size: 3vw;
-  margin-left: 0vw;
-  margin-top: -5.8vw;
- }
+  .questionAnswer16 input[type="checkbox"]:not(:checked):hover + h1 {
+    background-color: #56e100;
+    color: black;
+  }
 
+  .button Button {
+    border: 0.5vw solid #56e100;
+    border-radius: 5vw;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 3vw;
+    font-weight: bold;
+    background-color: #56e100;
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+  }
 
- .menuBoxP2 span{
-  margin-top: 1.5vw; 
-  color: white;
-  display: inline-block;
-  font-size: 2vw;
-  font-weight: bold;
-  border: 0.5vw solid #56E100;
-  border-radius: 3vw;
-  padding: 0.5vw;
-  margin-top: 5vw;
-  margin-left: -34vw;
- }
+  .icon {
+    margin-left: 38vw;
+    margin-right: 1vw;
+    width: 25vw;
+    height: 10vw;
+  }
 
- .menuBoxP2 span:hover{
-  margin-top: 1.5vw; 
-  display: inline-block;
-  font-size: 2vw;
-  font-weight: bold;
-  border: 0.5vw solid #56E100;
-  border-radius: 3vw;
-  padding: 0.5vw;
-  margin-top: 5vw;
-  color: black;
-  background-color: #56E100;
- }
+  .icon2 {
+    margin-left: 29vw;
+    margin-top: -9vw;
+    width: 15vw;
+    height: 10vw;
+  }
 
- .menuBoxP4 span{
-  margin-top: 1.5vw; 
-  color: white;
-  display: inline-block;
-  font-size: 2vw;
-  font-weight: bold;
-  border: 0.5vw solid #56E100;
-  border-radius: 3vw;
-  padding: 0.5vw;
-  margin-top: 5.2vw;
-  margin-left: -24.8vw;
- }
+  .barName h1 {
+    color: white;
+    font: Arial;
+    font-weight: bold;
+    font-size: 3vw;
+    margin-left: 0vw;
+    margin-top: -5.8vw;
+  }
 
- .menuBoxP4 span:hover{
-  margin-top: 1.5vw; 
-  color: black;
-  background-color: #56E100;
-  display: inline-block;
-  font-size: 2vw;
-  font-weight: bold;
-  border: 0.5vw solid #56E100;
-  border-radius: 3vw;
-  padding: 0.5vw;
-  margin-top: 5.2vw;
- }
+  .menuBoxP2 span {
+    margin-top: 1.5vw;
+    color: white;
+    display: inline-block;
+    font-size: 2vw;
+    font-weight: bold;
+    border: 0.5vw solid #56e100;
+    border-radius: 3vw;
+    padding: 0.5vw;
+    margin-top: 5vw;
+    margin-left: -34vw;
+  }
 
- .menuBoxP3 h1{
-  font: Arial;
-  color: white;
-  display: inline-block;
-  font-size: 1.5vw;
-  font-weight: bold;
-  border: 0.5vw solid #56E100;
-  border-radius: 3vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  margin-top: 5vw;
-  padding-top: 1.2vw;
-  padding-bottom: 1.2vw;
-  margin-left: -24vw;
- }
+  .menuBoxP2 span:hover {
+    margin-top: 1.5vw;
+    display: inline-block;
+    font-size: 2vw;
+    font-weight: bold;
+    border: 0.5vw solid #56e100;
+    border-radius: 3vw;
+    padding: 0.5vw;
+    margin-top: 5vw;
+    color: black;
+    background-color: #56e100;
+  }
 
- .menuBoxP3 h1:hover{
-  font: Arial;
-  color: black;
-  display: inline-block;
-  font-size: 1.5vw;
-  font-weight: bold;
-  border: 0.5vw solid #56E100;
-  border-radius: 3vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  margin-top: 5vw;
-  padding-top: 1.2vw;
-  padding-bottom: 1.2vw;
-  background-color: #56E100;
- }
+  .menuBoxP4 span {
+    margin-top: 1.5vw;
+    color: white;
+    display: inline-block;
+    font-size: 2vw;
+    font-weight: bold;
+    border: 0.5vw solid #56e100;
+    border-radius: 3vw;
+    padding: 0.5vw;
+    margin-top: 5.2vw;
+    margin-left: -24.8vw;
+  }
 
- .menuBoxP5 h1{
-  border: 0.8vw solid #56E100;
-  border-radius: 5vw;
-  color: white;
-  margin-left: 39vw;
-  text-align: center;
-  font-size: 3vw;
-  font-weight: bold;
-  margin-top: 3vw;
-  margin-bottom: 5.55vw;
-  padding-left: 4vw;
-  padding-right: 4vw;
-  padding-top: 2.5vw;
-  padding-bottom: 2.5vw;
- }
+  .menuBoxP4 span:hover {
+    margin-top: 1.5vw;
+    color: black;
+    background-color: #56e100;
+    display: inline-block;
+    font-size: 2vw;
+    font-weight: bold;
+    border: 0.5vw solid #56e100;
+    border-radius: 3vw;
+    padding: 0.5vw;
+    margin-top: 5.2vw;
+  }
 
- .loginPageTitle span{
-  display: inline-block;
-  color: white;
-  text-align: center;
-  font-size: 5vw;
-  font-weight: bold;
-  margin-top: 5vw;
-  font-weight: bold;
-  font: Arial;
-  margin-left: 1vw;
-  margin-right: 1vw;
- }
+  .menuBoxP3 h1 {
+    font: Arial;
+    color: white;
+    display: inline-block;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: 0.5vw solid #56e100;
+    border-radius: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 5vw;
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+    margin-left: -24vw;
+  }
 
- .loginPageSecondary span{
-  display: inline-block;
-  color: white;
-  text-align: center;
-  font-size: 3.5vw;
-  font-weight: bold;
-  font: Arial;
-  margin-left: 5vw;
-  margin-right: 5vw;
- }
+  .menuBoxP3 h1:hover {
+    font: Arial;
+    color: black;
+    display: inline-block;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: 0.5vw solid #56e100;
+    border-radius: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 5vw;
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+    background-color: #56e100;
+  }
 
- .labeladmin {
-  color: white;
-  font-size: 2.5vw;
-  font-weight: bold;
-  text-align: center;
-  font: Arial;
-  padding: 5vw;
-  display: grid;
-  margin-bottom: -6vw;
-  margin-top: -3vw;
- }
+  .menuBoxP5 h1 {
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    color: white;
+    margin-left: 39vw;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 3vw;
+    margin-bottom: 5.55vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+  }
 
- .labeladmin Button{
-  border: 0.5vw solid #56E100;
-  border-radius: 5vw;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  font-size: 2vw;
-  font-weight: bold;
-  background-color: black;
-  padding: 1vw;
-  margin-left: 30vw;
-  margin-right: 30vw;
-  margin-bottom: 100vw;
- }
+  .loginPageTitle span {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+    margin-top: 5vw;
+    font-weight: bold;
+    font: Arial;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
 
+  .loginPageSecondary span {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: bold;
+    font: Arial;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
 
- .admin{
-   background-color: black;
- }
+  .labeladmin {
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+    font: Arial;
+    padding: 5vw;
+    display: grid;
+    margin-bottom: -6vw;
+    margin-top: -3vw;
+  }
 
+  .labeladmin Button {
+    border: 0.5vw solid #56e100;
+    border-radius: 5vw;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 2vw;
+    font-weight: bold;
+    background-color: black;
+    padding: 1vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-bottom: 100vw;
+  }
 
+  .admin {
+    background-color: black;
+  }
 }
