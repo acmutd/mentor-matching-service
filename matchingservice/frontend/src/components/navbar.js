@@ -31,8 +31,8 @@ const Header = () => {
     else if (isAuthenticated && user.email.includes('@acmutd.co'))
     return (
       <Navbar bg="dark" expand="lg">
-      <Navbar.Brand><img src="Education-logo.svg" width="150" height="50" className="icon2" alt="ACM Education"/></Navbar.Brand>
-      <Navbar.Brand className="barName"><span>Matching Portal</span></Navbar.Brand>
+      <Navbar.Brand><img src="Education-logo.svg" className="icon2" alt="ACM Education"/></Navbar.Brand>
+      <Navbar.Brand className="barName"><h1>Matching Portal</h1></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="menuBox"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">

@@ -10,7 +10,7 @@
   }
 
   .inputLabels{
-    font-size: 6vw;
+    font-size: 8vw;
     padding-bottom: 3vw;
     display: grid;
   }
@@ -41,6 +41,7 @@
   
   .questionAnswer1 label{
     margin-top: 9vw;
+    margin-bottom: 3vw;
   }
   
   
@@ -110,7 +111,6 @@
     padding-top: 2.5vw;
     margin-left: 1vw;
     margin-right: 1vw;
-    
   }
 
   .questionAnswer3 span{
@@ -149,6 +149,7 @@
     font-size:5.8vw;
     padding-top: 2.5vw;
     margin-bottom: -3vw;
+    margin-top: -4vw;
     margin-left: 2.8vw;
     margin-right: 2.8vw;
   }
@@ -205,7 +206,7 @@
   }
 
 
-  .questionAnswer5 span{
+  .questionAnswer5 h1{
     display:inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
@@ -217,26 +218,26 @@
     padding-bottom: 2.3vw;
   }
 
-  .questionAnswer5P2 span{
+  .questionAnswer5P2 h1{
     padding-left: 5vw;
     padding-right: 5vw;
     margin-left: 8vw;
     margin-right: 8vw;
   }
 
-  .questionAnswer5P3 span{
+  .questionAnswer5P3 h1{
     padding-left: 5vw;
     padding-right: 5vw;
     margin-left: 8vw;
     margin-right: 8vw;
   }
 
-  .questionAnswer5P4 span{
+  .questionAnswer5P4 h1{
     padding-left: 11vw;
     padding-right: 11vw;
   }
   
-  .questionAnswer5 span:hover {
+  .questionAnswer5 h1:hover {
     background-color: #56E100;
     color: black ;
   }
@@ -326,7 +327,7 @@
     margin-right: 2vw;
   }
 
-  .questionAnswer6 span{
+  .questionAnswer6 h1{
     display:inline-block;
     font-size: 6vw;
     grid-template-columns: auto 1fr;
@@ -340,25 +341,25 @@
     padding-bottom: 2.8vw;
   }
 
-  .questionAnswer6P2 span{
+  .questionAnswer6P2 h1{
     padding-left: 20vw;
     padding-right: 20vw;
   }
 
-  .questionAnswer6P3 span{
+  .questionAnswer6P3 h1{
     padding-left: 17vw;
     padding-right: 17vw;
   }
-  .questionAnswer6P4 span{
+  .questionAnswer6P4 h1{
     padding-left: 23.5vw;
     padding-right: 23.5vw;
   }
-  .questionAnswer6P5 span{
+  .questionAnswer6P5 h1{
     padding-left: 9vw;
     padding-right: 9vw;
   }
   
-  .questionAnswer6 span:hover {
+  .questionAnswer6 h1:hover {
     background-color: #56E100;
     color: black ;
   }
@@ -372,12 +373,12 @@
     display: none;  
   }
   
-  .questionAnswer6 input[type="checkbox"]:checked+span{
+  .questionAnswer6 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
 
-  .questionAnswer6 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer6 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
   }
@@ -390,7 +391,7 @@
     margin-right: 2vw;
   }
 
-  .questionAnswer77 span{
+  .questionAnswer77 h1{
     display:inline-block;
     font-size: 6vw;
     grid-template-columns: auto 1fr;
@@ -404,17 +405,17 @@
     padding-bottom: 2vw;
   }
 
-  .questionAnswer77P2 span{
+  .questionAnswer77P2 h1{
     padding-left: 18vw;
     padding-right: 18vw;
   }
   
-  .questionAnswer77P3 span{
+  .questionAnswer77P3 h1{
     padding-left: 15vw;
     padding-right: 15vw;
   }
   
-  .questionAnswer77 span:hover {
+  .questionAnswer77 h1:hover {
     background-color: #56E100;
     color: black ;
   }
@@ -428,11 +429,11 @@
     display: none;  
   }
   
-  .questionAnswer77 input[type="radio"]:checked+span{
+  .questionAnswer77 input[type="radio"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
-  .questionAnswer77 input[type="radio"]:not(:checked)+span{
+  .questionAnswer77 input[type="radio"]:not(:checked)+h1{
     background-color: black;
     color: white ;
   }
@@ -487,7 +488,7 @@
     color: white ;
   }
 
-  .questionAnswer8 span{
+  .questionAnswer8 h1{
     display:inline-block;
     font-size: 6vw;
     grid-template-columns: auto 1fr;
@@ -501,29 +502,29 @@
     padding-bottom: 2vw;
   }
 
-  .questionAnswer8P2 span{
+  .questionAnswer8P2 h1{
     padding-left: 26vw;
     padding-right: 26vw;
   }
 
-  .questionAnswer8P3 span{
+  .questionAnswer8P3 h1{
     padding-left: 17.5vw;
     padding-right: 17.5vw;
   }
-  .questionAnswer8P4 span{
+  .questionAnswer8P4 h1{
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  .questionAnswer8P5 span{
+  .questionAnswer8P5 h1{
     padding-left: 12.5vw;
     padding-right: 12.5vw;
   }
-  .questionAnswer8P6 span{
+  .questionAnswer8P6 h1{
     padding-left: 6vw;
     padding-right: 6vw;
   }
   
-  .questionAnswer8 span:hover {
+  .questionAnswer8 h1:hover {
     background-color: #56E100;
     color: black ;
   }
@@ -537,19 +538,23 @@
     display: none;  
   }
   
-  .questionAnswer8 input[type="checkbox"]:checked+span{
+  .questionAnswer8 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
-  .questionAnswer8 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer8 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
+  }
+  .questionAnswer8 input[type="checkbox"]:not(:checked):hover+h1{
+    background-color: #56E100;
+    color: black ;
   }
 
 
   .questionAnswer9 span{
     display:inline-block;
-    font-size: 5.5vw;
+    font-size: 6vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
@@ -742,7 +747,7 @@
     margin-right: 2vw;
   }
 
-  .questionAnswer13 span{
+  .questionAnswer13 h1{
     display:inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
@@ -756,57 +761,57 @@
     padding-bottom: 2.3vw;
   }
 
-  .questionAnswer13P2 span{
+  .questionAnswer13P2 h1{
     padding-left: 7.5vw;
     padding-right: 7.5vw;
   }
 
-  .questionAnswer13P3 span{
+  .questionAnswer13P3 h1{
     padding-left: 19vw;
     padding-right: 19vw;
   }
 
-  .questionAnswer13P4 span{
+  .questionAnswer13P4 h1{
     padding-left: 14vw;
     padding-right: 14vw;
   }
 
-  .questionAnswer13P5 span{
+  .questionAnswer13P5 h1{
     padding-left: 25vw;
     padding-right: 25vw;
   }
 
-  .questionAnswer13P6 span{
+  .questionAnswer13P6 h1{
     padding-left: 23.5vw;
     padding-right: 23.5vw;
   }
 
-  .questionAnswer13P7 span{
+  .questionAnswer13P7 h1{
     padding-left: 16.5vw;
     padding-right: 16.5vw;
   }
 
-  .questionAnswer13P8 span{
+  .questionAnswer13P8 h1{
     padding-left: 20.5vw;
     padding-right: 20.5vw;
   }
 
-  .questionAnswer13P9 span{
+  .questionAnswer13P9 h1{
     padding-left: 12.5vw;
     padding-right: 12.5vw;
   }
 
-  .questionAnswer13P10 span{
+  .questionAnswer13P10 h1{
     padding-left: 3vw;
     padding-right: 3vw;
     font-size: 5vw;
   }
-  .questionAnswer13P11 span{
+  .questionAnswer13P11 h1{
     padding-left: 34vw;
     padding-right: 34vw;
   }
   
-  .questionAnswer13 span:hover {
+  .questionAnswer13 h1:hover {
     background-color: #56E100;
     color: black ;
   }
@@ -820,12 +825,12 @@
     display: none;  
   }
   
-  .questionAnswer13 input[type="checkbox"]:checked+span{
+  .questionAnswer13 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
 
-  .questionAnswer13 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer13 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
   }
@@ -839,7 +844,7 @@
     margin-right: 2vw;
   }
 
-  .questionAnswer14 span{
+  .questionAnswer14 h1{
     display:inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
@@ -853,27 +858,27 @@
     padding-bottom: 3vw;
   }
 
-  .questionAnswer14P2 span{
+  .questionAnswer14P2 h1{
     padding-left: 7vw;
     padding-right: 7vw;
   }
 
-  .questionAnswer14P3 span{
+  .questionAnswer14P3 h1{
     padding-left: 21vw;
     padding-right: 21vw;
   }
 
-  .questionAnswer14P4 span{
+  .questionAnswer14P4 h1{
     padding-left: 15.5vw;
     padding-right: 15.5vw;
   }
 
-  .questionAnswer14P5 span{
+  .questionAnswer14P5 h1{
     padding-left: 27vw;
     padding-right: 27vw;
   }
 
-  .questionAnswer14P6 span{
+  .questionAnswer14P6 h1{
     padding-left: 22.5vw;
     padding-right: 22.5vw;
   }
@@ -892,12 +897,12 @@
     display: none;  
   }
   
-  .questionAnswer14 input[type="checkbox"]:checked+span{
+  .questionAnswer14 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
 
-  .questionAnswer14 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer14 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
   }
@@ -911,7 +916,7 @@
     margin-right: 2vw;
   }
 
-  .questionAnswer15 span{
+  .questionAnswer15 h1{
     display:inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
@@ -925,7 +930,7 @@
     padding-bottom: 4vw;
   }
 
-  .questionAnswer15P2 span{
+  .questionAnswer15P2 h1{
     padding-left: 0.1vw;
     padding-right: 0.1vw;
     margin-left: 5vw;
@@ -933,7 +938,7 @@
     font-size: 4.8vw;
   }
 
-  .questionAnswer15P3 span{
+  .questionAnswer15P3 h1{
     padding-left: 0.1vw;
     padding-right: 0.1vw;
     margin-left: 5vw;
@@ -941,12 +946,12 @@
     font-size: 4.8vw;
   }
 
-  .questionAnswer15P4 span{
+  .questionAnswer15P4 h1{
     padding-left: 16.5vw;
     padding-right: 16.5vw;
   }
 
-  .questionAnswer15P5 span{
+  .questionAnswer15P5 h1{
     padding-left: 0.1vw;
     padding-right: 0.1vw;
     margin-left: 5vw;
@@ -954,7 +959,7 @@
     font-size: 5vw;
   }
 
-  .questionAnswer15P6 span{
+  .questionAnswer15P6 h1{
     padding-left: 0.2vw;
     padding-right: 0.2vw;
     margin-left: 5vw;
@@ -962,19 +967,19 @@
     font-size: 5vw;
   }
 
-  .questionAnswer15P7 span{
+  .questionAnswer15P7 h1{
     margin-left: 5vw;
     margin-right: 5vw;
     font-size: 4.5vw;
   }
 
-  .questionAnswer15P8 span{
+  .questionAnswer15P8 h1{
     margin-left: 5vw;
     margin-right: 5vw;
     font-size: 4.7vw;
   }
 
-  .questionAnswer15P9 span{
+  .questionAnswer15P9 h1{
     padding-left: 1.5vw;
     padding-right: 1.5vw;
     padding-top: 6vw;
@@ -982,7 +987,7 @@
     font-size: 4.5vw;
   }
 
-  .questionAnswer15P10 span{
+  .questionAnswer15P10 h1{
     padding-left: 1vw;
     padding-right: 1vw;
     margin-left: 4vw;
@@ -990,7 +995,7 @@
     font-size: 4.5vw;
   }
 
-  .questionAnswer15P11 span{
+  .questionAnswer15P11 h1{
     padding-left: 1.3vw;
     padding-right: 1.3vw;
     padding-top: 6vw;
@@ -1014,12 +1019,12 @@
     display: none;  
   }
   
-  .questionAnswer15 input[type="checkbox"]:checked+span{
+  .questionAnswer15 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
 
-  .questionAnswer15 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer15 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
   }
@@ -1032,7 +1037,7 @@
     margin-right: 2vw;
   }
 
-  .questionAnswer16 span{
+  .questionAnswer16 h1{
     display:inline-block;
     font-size: 5.5vw;
     grid-template-columns: auto 1fr;
@@ -1046,32 +1051,32 @@
     padding-bottom: 3vw;
   }
 
-  .questionAnswer16P2 span{
+  .questionAnswer16P2 h1{
     padding-left: 6vw;
     padding-right: 6vw;
   }
 
-  .questionAnswer16P3 span{
+  .questionAnswer16P3 h1{
     padding-left: 21vw;
     padding-right: 21vw;
   }
 
-  .questionAnswer16P4 span{
+  .questionAnswer16P4 h1{
     padding-left: 20vw;
     padding-right: 20vw;
   }
 
-  .questionAnswer16P5 span{
+  .questionAnswer16P5 h1{
     padding-left: 10vw;
     padding-right: 10vw;
   }
 
-  .questionAnswer16P6 span{
+  .questionAnswer16P6 h1{
     padding-left: 22.5vw;
     padding-right: 22.5vw;
   }
 
-  .questionAnswer16 span:hover {
+  .questionAnswer16 h1:hover {
     background-color: #56E100;
     color: black ;
   }
@@ -1085,12 +1090,12 @@
     display: none;  
   }
   
-  .questionAnswer16 input[type="checkbox"]:checked+span{
+  .questionAnswer16 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
 
-  .questionAnswer16 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer16 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
   }
@@ -1106,8 +1111,8 @@
   font-size: 6vw;
   font-weight: bold;
   background-color: #56E100;
-  margin-bottom: 5vw;
-  margin-top: 3vw;
+  margin-bottom: 25vw;
+  margin-top: 1vw;
  }
 
  .icon {
@@ -1116,17 +1121,23 @@
  }
 
  .icon2 {
-  margin-left: 3vw;
+   margin-left: 27vw;
+   margin-top: -18vw;
+   width: 50vw;
+   height: 50vw;
  }
 
- .barName span{
+ .barName h1{
   color: white;
   font: Arial;
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 9vw;
+  margin-left: 17vw;
+  margin-top: -15vw;
  }
+
  .menuBox{
-   margin-left: 42vw;
+   margin-left: 43vw;
    border-radius: 5vw;
    background-color: #56E100;
  }
@@ -1244,26 +1255,24 @@
     color: white;
     font: Arial;
     font-weight: bold;
-    font-size: 1vw;
+    font-size: 1.5vw;
     text-align: center;
   }
 
   .inputLabels{
-    font-size: 2vw;
+    font-size: 2.3vw;
     padding-bottom: 1vw;
     display: grid;
   }
 
   .questionTitle1{
-    font-size: 2vw;
-    padding-top: 1vw;
+    font-size: 2.3vw;
     margin-bottom: -2vw;
+    margin-top: 2.6vw;
   }
   
   .questionAnswer1 span{
-    font-size: 1.5vw;
-    grid-template-columns: auto 1fr;
-    justify-items: center;
+    font-size: 2vw;
     border: 0.5vw solid #56E100;
     border-radius: 3vw;
     padding-right: 3.5vw;
@@ -1280,8 +1289,9 @@
   
   .questionAnswer1 label{
     margin-top: 4vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
   }
-  
   
   .questionAnswer1 input[type="radio"]{
     display: none;  
@@ -1294,13 +1304,14 @@
   
 
   .questionTitle2{
-    font-size: 2vw;
+    font-size: 2.3vw;
     padding-top: 2.5vw;
     margin-bottom: -2.5vw;
+    margin-top: 2vw;
   }
   
   .questionAnswer2 span{
-    font-size: 1.5vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     border: 0.5vw solid #56E100;
@@ -1308,6 +1319,8 @@
     padding-top: 1vw;
     padding-bottom: 1vw;
     color: white;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
 
   .questionAnswer2P2 span{
@@ -1323,7 +1336,7 @@
   .questionAnswer2P4 span{
     padding-left: 3vw;
     padding-right: 3vw;
-    font-size: 1.3vw;
+    font-size: 2vw;
   }
 
   .questionAnswer2 span:hover {
@@ -1346,15 +1359,15 @@
 
 
   .questionTitle3{
-    font-size:2vw;
+    font-size:2.3vw;
     padding-top: 2.5vw;
     margin-left: 1vw;
     margin-right: 1vw;
-    
+    margin-top: 2vw;
   }
 
   .questionAnswer3 span{
-    font-size: 1.5vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     border: 0.5vw solid #56E100;
@@ -1364,6 +1377,8 @@
     padding-left: 3.5vw;
     padding-right: 3.5vw;
     color: white;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
   
   .questionAnswer3 span:hover {
@@ -1386,16 +1401,17 @@
   }
 
   .questionTitle4{
-    font-size: 2vw;
-    padding-top: 2vw;
+    font-size: 2.3vw;
+    padding-top: 1.2vw;
     margin-bottom: -1vw;
     margin-left: 15vw;
     margin-right: 15vw;
+    margin-top: 2vw;
   }
 
   .questionAnswer4 span{
     display:inline-block;
-    font-size: 1.5vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
@@ -1403,6 +1419,8 @@
     border-radius: 5vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
 
   .questionAnswer4P2 span{
@@ -1435,51 +1453,54 @@
   }
 
   .questionTitle5{
-    font-size:2vw;
+    font-size:2.3vw;
     padding-top: 3vw;
     margin-bottom: -0.5vw;
     margin-left: 2vw;
     margin-right: 2vw;
+    margin-top: 2vw;
   }
 
 
-  .questionAnswer5 span{
-    display:inline-block;
-    font-size: 1.5vw;
+  .questionAnswer5 h1{
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
-    color: white;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
     border: 0.5vw solid #56E100;
     border-radius: 5vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    background-color: black;
+    color: white;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-weight: bold;
   }
 
-  .questionAnswer5P2 span{
-    padding-left: 5.5vw;
-    padding-right: 5.5vw;
-    margin-left: 26.5vw;
-    margin-right: 26.5vw;
+  .questionAnswer5P2 h1{
+    font-size: 1.7vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
   }
 
-  .questionAnswer5P3 span{
-    padding-left: 5vw;
-    padding-right: 5vw;
-    margin-left: 26.3vw;
-    margin-right: 26.3vw;
+  .questionAnswer5P3 h1{
+    font-size:1.7vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
   }
 
-  .questionAnswer5P4 span{
-    padding-left: 14.5vw;
-    padding-right: 14.5vw;
+  .questionAnswer5P4 h1{
+    padding-left: 3vw;
+    padding-right: 3vw;
   }
   
-  .questionAnswer5 span:hover {
+  .questionAnswer5 h1:hover {
     background-color: #56E100;
     color: black ;
   }
   
   .questionAnswer5 label{
+    border-radius: 5vw;
     margin-top: 2vw;
   }
   
@@ -1488,23 +1509,24 @@
     display: none;  
   }
   
-  .questionAnswer5 input[type="radio"]:checked+span{
+  .questionAnswer5 input[type="radio"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
 
 
   .questionTitle55{
-    font-size:2vw;
+    font-size:2.3vw;
     padding-top: 3vw;
     margin-bottom: -1vw;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    margin-top: 2vw;
   }
 
   .questionAnswer55 span{
     display:inline-block;
-    font-size: 1.5vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
@@ -1512,6 +1534,8 @@
     border-radius: 5vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
 
   .questionAnswer55P2 span{
@@ -1520,19 +1544,17 @@
   }
 
   .questionAnswer55P3 span{
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-    font-size: 1.5vw;
-    
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1.9vw;
   }
   .questionAnswer55P4 span{
     padding-left: 8.5vw;
     padding-right: 8.5vw;
   }
   .questionAnswer55P5 span{
-    font-size: 2vw;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
+    padding-left: 4.55vw;
+    padding-right: 4.5vw;
   }
   
   .questionAnswer55 span:hover {
@@ -1541,7 +1563,7 @@
   }
   
   .questionAnswer55 label{
-    margin-top: 3vw;
+    margin-top: 2vw;
   }
   
   
@@ -1556,14 +1578,15 @@
 
 
   .questionTitle6{
-    font-size:2vw;
+    font-size:2.3vw;
     padding-top: 2.5vw;
     margin-bottom: -1vw;
     margin-left: 2vw;
     margin-right: 2vw;
+    margin-top: 2vw;
   }
 
-  .questionAnswer6 span{
+  .questionAnswer6 h1{
     display:inline-block;
     font-size: 2vw;
     grid-template-columns: auto 1fr;
@@ -1577,34 +1600,30 @@
     padding-bottom: 1vw;
   }
 
-  .questionAnswer6P2 span{
+  .questionAnswer6P2 h1{
     padding-left: 8vw;
     padding-right: 8vw;
+    margin-right: -0.3vw;
   }
 
-  .questionAnswer6P3 span{
-    padding-left: 7vw;
-    padding-right: 7vw;
+  .questionAnswer6P3 h1{
+    padding-left: 7.2vw;
+    padding-right: 7.2vw;
   }
-  .questionAnswer6P4 span{
+  .questionAnswer6P4 h1{
     padding-left: 9.3vw;
     padding-right: 9.3vw;
   }
-  .questionAnswer6P5 span{
+  .questionAnswer6P5 h1{
     padding-left: 4.5vw;
     padding-right: 4.5vw;
   }
-  
-  .questionAnswer6 input[type="checkbox"]:hover {
-    background-color: #56E100;
-    color: black ;
-  }
-  
+
   .questionAnswer6 label{
-    margin-top: 3vw;
+    margin-top: 2vw;
   }
 
-  .questionAnswer6 span:hover{
+  .questionAnswer6 h1:hover{
     background-color: #56E100;
     color: black ;
   }
@@ -1614,81 +1633,93 @@
     display: none;  
   }
   
-  .questionAnswer6 input[type="checkbox"]:checked+span{
+  .questionAnswer6 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
 
-  .questionAnswer6 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer6 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
   }
 
-  .questionTitle77{
-    font-size:5.8vw;
-    padding-top: 2.5vw;
-    margin-bottom: -3vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
-  }
-
-  .questionAnswer77 span{
-    display:inline-block;
-    font-size: 6vw;
-    grid-template-columns: auto 1fr;
-    justify-items: center;
-    color: white;
-    border: 0.8vw solid #56E100;
-    border-radius: 5vw;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-  }
-
-  .questionAnswer77P2 span{
-    padding-left: 18vw;
-    padding-right: 18vw;
-  }
-  
-  .questionAnswer77P3 span{
-    padding-left: 15vw;
-    padding-right: 15vw;
-  }
-  
-  .questionAnswer77 span:hover {
+  .questionAnswer6 input[type="checkbox"]:not(:checked):hover+h1{
     background-color: #56E100;
     color: black ;
   }
-  
-  .questionAnswer77 label{
-    margin-top: 8vw;
+
+  .questionTitle77{
+    font-size:2.3vw;
+    padding-top: 2.5vw;
+    margin-bottom: -1vw;
+    margin-left: 8.4vw;
+    margin-right: 8.4vw;
+    margin-top: 2vw;
+  }
+
+  .questionAnswer77 h1{
+    display:inline-block;
+    font-size: 2vw;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    color: white;
+    border: 0.5vw solid #56E100;
+    border-radius: 5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+
+  .questionAnswer77P2 h1{
+    padding-left: 6vw;
+    padding-right: 6vw;
   }
   
+  .questionAnswer77P3 h1{
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  
+  .questionAnswer77 h1:hover {
+    background-color: #56E100;
+    color: black ;
+  }
+
+  
+  .questionAnswer77 label{
+    margin-top: 2vw;
+  }
   
   .questionAnswer77 input[type="radio"]{
     display: none;  
   }
   
-  .questionAnswer77 input[type="radio"]:checked+span{
+  .questionAnswer77 input[type="radio"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
-  .questionAnswer77 input[type="radio"]:not(:checked)+span{
+  .questionAnswer77 input[type="radio"]:not(:checked)+h1{
     background-color: black;
     color: white ;
   }
 
+  .questionAnswer77 input[type="radio"]:not(:checked):hover+h1{
+    background-color: #56E100;
+    color: black ;
+  }
+
   .questionTitle7{
-    font-size:6vw;
+    font-size:2.3vw;
     padding-top: 2.5vw;
-    margin-bottom: -3vw;
+    margin-bottom: -1vw;
     margin-left: 2vw;
     margin-right: 3vw;
+    margin-top: 2vw;
   }
   .questionAnswer7 span{
     display:inline-block;
-    font-size: 6vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
@@ -1712,7 +1743,7 @@
   }
   
   .questionAnswer7 label{
-    margin-top: 8vw;
+    margin-top:2vw;
   }
   
   
@@ -1729,49 +1760,49 @@
     color: white ;
   }
 
-  .questionAnswer8 span{
+  .questionAnswer8 h1{
     display:inline-block;
-    font-size: 6vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.5vw solid #56E100;
     border-radius: 5vw;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
   }
 
-  .questionAnswer8P2 span{
-    padding-left: 26vw;
-    padding-right: 26vw;
+  .questionAnswer8P2 h1{
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 
-  .questionAnswer8P3 span{
-    padding-left: 17.5vw;
-    padding-right: 17.5vw;
+  .questionAnswer8P3 h1{
+    padding-left: 7vw;
+    padding-right: 7vw;
   }
-  .questionAnswer8P4 span{
+  .questionAnswer8P4 h1{
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  .questionAnswer8P5 h1{
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .questionAnswer8P6 h1{
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  .questionAnswer8P5 span{
-    padding-left: 12.5vw;
-    padding-right: 12.5vw;
-  }
-  .questionAnswer8P6 span{
-    padding-left: 6vw;
-    padding-right: 6vw;
-  }
   
-  .questionAnswer8 span:hover {
+  .questionAnswer8 h1:hover {
     background-color: #56E100;
     color: black ;
   }
   
   .questionAnswer8 label{
-    margin-top: 8vw;
+    margin-top: 2vw;
   }
   
   
@@ -1779,53 +1810,59 @@
     display: none;  
   }
   
-  .questionAnswer8 input[type="checkbox"]:checked+span{
+  .questionAnswer8 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
-  .questionAnswer8 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer8 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
+  }
+
+  .questionAnswer8 input[type="checkbox"]:not(:checked):hover+h1{
+    background-color: #56E100;
+    color: black ;
   }
 
 
   .questionAnswer9 span{
     display:inline-block;
-    font-size: 5.5vw;
+    font-size: 1.8vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.5vw solid #56E100;
     border-radius: 5vw;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    padding-top: 2.3vw;
-    padding-bottom: 2.3vw;
+    padding-top: 1vw;
+    padding-bottom:1vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
   }
 
   .questionAnswer9P2 span{
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
   }
 
   .questionAnswer9P3 span{
+    padding-left: 3vw;
+    padding-right:3vw;
+  }
+
+  .questionAnswer9P4 span{
     padding-left: 5vw;
     padding-right: 5vw;
   }
 
-  .questionAnswer9P4 span{
-    padding-left: 10vw;
-    padding-right: 10vw;
-  }
-
   .questionAnswer9P5 span{
-    padding-left: 27vw;
-    padding-right: 27vw;
+    padding-left: 10.5vw;
+    padding-right: 10.5vw;
   }
 
   .questionAnswer9P6 span{
-    padding-left: 34vw;
-    padding-right: 34vw;
+    padding-left: 12.5vw;
+    padding-right:12.5vw;
+    margin-bottom: 2vw;
   }
   
   .questionAnswer9 span:hover {
@@ -1834,7 +1871,7 @@
   }
   
   .questionAnswer9 label{
-    margin-top: 8vw;
+    margin-top: 2vw;
   }
   
   
@@ -1849,18 +1886,19 @@
 
   .questionAnswer10 span{
     display:inline-block;
-    font-size: 5.5vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.5vw solid #56E100;
     border-radius: 5vw;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    padding-top: 2.3vw;
-    padding-bottom: 2.3vw;
-    padding-left: 27vw;
-    padding-right: 27vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-right:1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left:8vw;
+    padding-right: 8vw;
   }
   
   .questionAnswer10 span:hover {
@@ -1869,7 +1907,8 @@
   }
   
   .questionAnswer10 label{
-    margin-top: 8vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
   }
   
   
@@ -1884,18 +1923,19 @@
 
   .questionAnswer11 span{
     display:inline-block;
-    font-size: 5.5vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.5vw solid #56E100;
     border-radius: 5vw;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    padding-top: 2.3vw;
-    padding-bottom: 2.3vw;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+   
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
   }
   
   .questionAnswer11 span:hover {
@@ -1904,7 +1944,7 @@
   }
   
   .questionAnswer11 label{
-    margin-top: 8vw;
+    margin-top: 4vw;
   }
   
   
@@ -1918,38 +1958,39 @@
   }
 
   .questionTitle12{
-    font-size: 6vw;
-    padding-top: 2.5vw;
-    margin-bottom: -3vw;
+    font-size: 2.3vw;
+    padding-top: 5vw;
+    margin-bottom: -1vw;
+    margin-top: 2vw;
   }
 
   .questionAnswer12 span{
     display:inline-block;
-    font-size: 6vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.5vw solid #56E100;
     border-radius: 5vw;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    padding-top: 2.8vw;
-    padding-bottom: 2.8vw;
+    margin-left:1vw;
+    margin-right: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
   }
 
   .questionAnswer12P2 span{
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 
   .questionAnswer12P3 span{
-    padding-left: 22.5vw;
-    padding-right: 22.5vw;
+    padding-left: 11vw;
+    padding-right: 11vw;
   }
 
   .questionAnswer12P4 span{
-    padding-left: 25vw;
-    padding-right: 25vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
   }
   
   .questionAnswer12 span:hover {
@@ -1958,7 +1999,7 @@
   }
   
   .questionAnswer12 label{
-    margin-top: 8vw;
+    margin-top: 3vw;
   }
   
   
@@ -1974,87 +2015,102 @@
     background-color: black;
     color: white ;
   }
-
-
-  .questionTitle13{
-    font-size: 6.8vw;
-    padding-top: 2.5vw;
-    padding-bottom: -1vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
-  }
-
-  .questionAnswer13 span{
-    display:inline-block;
-    font-size: 5.5vw;
-    grid-template-columns: auto 1fr;
-    justify-items: center;
-    color: white;
-    border: 0.8vw solid #56E100;
-    border-radius: 5vw;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    padding-top: 2.3vw;
-    padding-bottom: 2.3vw;
-  }
-
-  .questionAnswer13P2 span{
-    padding-left: 7.5vw;
-    padding-right: 7.5vw;
-  }
-
-  .questionAnswer13P3 span{
-    padding-left: 19vw;
-    padding-right: 19vw;
-  }
-
-  .questionAnswer13P4 span{
-    padding-left: 14vw;
-    padding-right: 14vw;
-  }
-
-  .questionAnswer13P5 span{
-    padding-left: 25vw;
-    padding-right: 25vw;
-  }
-
-  .questionAnswer13P6 span{
-    padding-left: 23.5vw;
-    padding-right: 23.5vw;
-  }
-
-  .questionAnswer13P7 span{
-    padding-left: 16.5vw;
-    padding-right: 16.5vw;
-  }
-
-  .questionAnswer13P8 span{
-    padding-left: 20.5vw;
-    padding-right: 20.5vw;
-  }
-
-  .questionAnswer13P9 span{
-    padding-left: 12.5vw;
-    padding-right: 12.5vw;
-  }
-
-  .questionAnswer13P10 span{
-    padding-left: 3vw;
-    padding-right: 3vw;
-    font-size: 5vw;
-  }
-  .questionAnswer13P11 span{
-    padding-left: 34vw;
-    padding-right: 34vw;
-  }
-  
-  .questionAnswer13 span:hover {
+  .questionAnswer12 input[type="checkbox"]:not(:checked):hover+span{
     background-color: #56E100;
     color: black ;
   }
+
+
+  .questionTitle13{
+    font-size: 2.3vw;
+    padding-top: 4.5vw;
+    padding-bottom: -1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 2vw;
+  }
+
+  .questionAnswer13 h1{
+    display:inline-block;
+    font-size: 2vw;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    color: white;
+    border: 0.5vw solid #56E100;
+    border-radius: 5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+
+  .questionAnswer13P2 h1{
+    padding-left: 4.3vw;
+    padding-right: 4.3vw;
+    margin-right: 1.5vw;
+    
+  }
+
+  .questionAnswer13P3 h1{
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin-left: 1vw;
+  }
+
+  .questionAnswer13P4 h1{
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+    margin-right: 1vw;
+  }
+
+  .questionAnswer13P5 h1{
+    padding-left: 10.5vw;
+    padding-right: 10.5vw;
+    margin-left: 1.5vw;
+  }
+
+  .questionAnswer13P6 h1{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-right: 1.3vw;
+  }
+
+  .questionAnswer13P7 h1{
+    padding-left: 8vw;
+    padding-right:8vw;
+    margin-left: 1vw;
+  }
+
+  .questionAnswer13P8 h1{
+    padding-left: 8.8vw;
+    padding-right: 8.8vw;
+    
+  }
+
+  .questionAnswer13P9 h1{
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+  }
+
+  .questionAnswer13P10 h1{
+    font-size: 1.9vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-right: 1vw;
+    
+  }
+  .questionAnswer13P11 h1{
+    padding-left: 15vw;
+    padding-right: 15vw;
+  }
+  
+  .questionAnswer13 h1:hover {
+    background-color: #56E100;
+    color: black;
+  }
   
   .questionAnswer13 label{
-    margin-top: 6vw;
+    margin-top: 3vw;
   }
   
   
@@ -2062,71 +2118,78 @@
     display: none;  
   }
   
-  .questionAnswer13 input[type="checkbox"]:checked+span{
+  .questionAnswer13 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
 
-  .questionAnswer13 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer13 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
   }
 
+  .questionAnswer13 input[type="checkbox"]:not(:checked):hover+h1{
+    background-color: #56E100;
+    color: black;
+  }
 
   .questionTitle14{
-    font-size: 6vw;
-    padding-top: 2.5vw;
+    font-size: 2.3vw;
+    padding-top: 3.5vw;
     padding-bottom: -1vw;
     margin-left: 2vw;
     margin-right: 2vw;
+    margin-top: 2vw;
   }
 
-  .questionAnswer14 span{
+  .questionAnswer14 h1{
     display:inline-block;
-    font-size: 5.5vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.5vw solid #56E100;
     border-radius: 5vw;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
   }
 
-  .questionAnswer14P2 span{
+  .questionAnswer14P2 h1{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-right: 1vw;
+  }
+
+  .questionAnswer14P3 h1{
     padding-left: 7vw;
     padding-right: 7vw;
+    margin-left: 1vw;
   }
 
-  .questionAnswer14P3 span{
-    padding-left: 21vw;
-    padding-right: 21vw;
+  .questionAnswer14P4 h1{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-right: 1vw;
   }
 
-  .questionAnswer14P4 span{
-    padding-left: 15.5vw;
-    padding-right: 15.5vw;
+  .questionAnswer14P5 h1{
+    padding-left: 9.3vw;
+    padding-right: 9.3vw;
+    margin-left: 1vw;
   }
 
-  .questionAnswer14P5 span{
-    padding-left: 27vw;
-    padding-right: 27vw;
+  .questionAnswer14P6 h1{
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
   }
 
-  .questionAnswer14P6 span{
-    padding-left: 22.5vw;
-    padding-right: 22.5vw;
-  }
-
-  .questionAnswer14 span:hover {
+  .questionAnswer14 h1:hover {
     background-color: #56E100;
     color: black ;
   }
   
   .questionAnswer14 label{
-    margin-top: 6vw;
+    margin-top: 3vw;
   }
   
   
@@ -2134,121 +2197,106 @@
     display: none;  
   }
   
-  .questionAnswer14 input[type="checkbox"]:checked+span{
+  .questionAnswer14 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
 
-  .questionAnswer14 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer14 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
   }
 
+  .questionAnswer14 input[type="checkbox"]:not(:checked):hover+h1{
+    background-color: #56E100;
+    color: black;
+  }
+
+
 
   .questionTitle15{
-    font-size: 6vw;
-    padding-top: 2.5vw;
+    font-size: 2.5vw;
+    padding-top: 3vw;
     padding-bottom: -1vw;
     margin-left: 2vw;
     margin-right: 2vw;
+    margin-top: 2vw;
   }
 
-  .questionAnswer15 span{
+  .questionAnswer15 h1{
     display:inline-block;
-    font-size: 5.5vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.5vw solid #56E100;
     border-radius: 5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
-    padding-top: 4vw;
-    padding-bottom: 4vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
   }
 
-  .questionAnswer15P2 span{
-    padding-left: 0.1vw;
-    padding-right: 0.1vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    font-size: 4.8vw;
+  .questionAnswer15P2 h1{
+    padding-left: 5.5vw;
+    padding-right: 5.5vw;
+    font-size: 1.8vw;
   }
 
-  .questionAnswer15P3 span{
-    padding-left: 0.1vw;
-    padding-right: 0.1vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    font-size: 4.8vw;
+  .questionAnswer15P3 h1{
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
+    font-size: 1.9vw;
   }
 
-  .questionAnswer15P4 span{
-    padding-left: 16.5vw;
-    padding-right: 16.5vw;
+  .questionAnswer15P4 h1{
+    padding-left: 19.2vw;
+    padding-right: 19.2vw;
   }
 
-  .questionAnswer15P5 span{
-    padding-left: 0.1vw;
-    padding-right: 0.1vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    font-size: 5vw;
+  .questionAnswer15P5 h1{
+    padding-left: 2.6vw;
+    padding-right: 2.6vw;
   }
 
-  .questionAnswer15P6 span{
-    padding-left: 0.2vw;
-    padding-right: 0.2vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    font-size: 5vw;
+  .questionAnswer15P6 h1{
+    padding-left: 4.8vw;
+    padding-right: 4.8vw;
   }
 
-  .questionAnswer15P7 span{
-    margin-left: 5vw;
-    margin-right: 5vw;
-    font-size: 4.5vw;
+  .questionAnswer15P7 h1{
+    padding-left: 3vw;
+    padding-right: 3vw;
   }
 
-  .questionAnswer15P8 span{
-    margin-left: 5vw;
-    margin-right: 5vw;
-    font-size: 4.7vw;
+  .questionAnswer15P8 h1{
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
   }
 
-  .questionAnswer15P9 span{
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-    padding-top: 6vw;
-    padding-bottom: 6vw;
-    font-size: 4.5vw;
+  .questionAnswer15P9 h1{
+    padding-left: 10.2vw;
+    padding-right: 10.2vw;
+  
   }
 
-  .questionAnswer15P10 span{
-    padding-left: 1vw;
-    padding-right: 1vw;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    font-size: 4.5vw;
+  .questionAnswer15P10 h1{
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
   }
 
-  .questionAnswer15P11 span{
-    padding-left: 1.3vw;
-    padding-right: 1.3vw;
-    padding-top: 6vw;
-    padding-bottom: 6vw;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    font-size: 4.5vw;
+  .questionAnswer15P11 h1{
+    padding-left: 10.3vw;
+    padding-right: 10.3vw;
   }
 
-  .questionAnswer15 span:hover {
+  .questionAnswer15 h1:hover {
     background-color: #56E100;
     color: black ;
   }
   
   .questionAnswer15 label{
-    margin-top: 6vw;
+    margin-top: 3vw;
   }
   
   
@@ -2256,70 +2304,76 @@
     display: none;  
   }
   
-  .questionAnswer15 input[type="checkbox"]:checked+span{
+  .questionAnswer15 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
 
-  .questionAnswer15 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer15 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
   }
 
+  .questionAnswer15 input[type="checkbox"]:not(:checked):hover+h1{
+    background-color: #56E100;
+    color: black;
+  }
+
   .questionTitle16{
-    font-size: 6vw;
-    padding-top: 2.5vw;
+    font-size: 2.3vw;
+    padding-top: 3vw;
     padding-bottom: -1vw;
     margin-left: 2vw;
     margin-right: 2vw;
+    margin-top: 2vw;
   }
 
-  .questionAnswer16 span{
+  .questionAnswer16 h1{
     display:inline-block;
-    font-size: 5.5vw;
+    font-size: 2vw;
     grid-template-columns: auto 1fr;
     justify-items: center;
     color: white;
-    border: 0.8vw solid #56E100;
+    border: 0.5vw solid #56E100;
     border-radius: 5vw;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
   }
 
-  .questionAnswer16P2 span{
-    padding-left: 6vw;
-    padding-right: 6vw;
+  .questionAnswer16P2 h1{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-right: 2vw;
   }
 
-  .questionAnswer16P3 span{
-    padding-left: 21vw;
-    padding-right: 21vw;
+  .questionAnswer16P3 h1{
+    padding-left: 8.5vw;
+    padding-right: 8.5vw;
   }
 
-  .questionAnswer16P4 span{
-    padding-left: 20vw;
-    padding-right: 20vw;
+  .questionAnswer16P4 h1{
+    padding-left: 8.2vw;
+    padding-right: 8.2vw;
+    margin-right: 2vw;
   }
 
-  .questionAnswer16P5 span{
-    padding-left: 10vw;
-    padding-right: 10vw;
+  .questionAnswer16P5 h1{
+    padding-left: 4.8vw;
+    padding-right: 4.8vw;
   }
 
-  .questionAnswer16P6 span{
-    padding-left: 22.5vw;
-    padding-right: 22.5vw;
+  .questionAnswer16P6 h1{
+    padding-left: 9.5vw;
+    padding-right: 9.5vw;
   }
 
-  .questionAnswer16 span:hover {
+  .questionAnswer16 h1:hover {
     background-color: #56E100;
     color: black ;
   }
   
   .questionAnswer16 label{
-    margin-top: 6vw;
+    margin-top: 3vw;
   }
   
   
@@ -2327,25 +2381,30 @@
     display: none;  
   }
   
-  .questionAnswer16 input[type="checkbox"]:checked+span{
+  .questionAnswer16 input[type="checkbox"]:checked+h1{
     background-color: #56E100;
     color: black ;
   }
 
-  .questionAnswer16 input[type="checkbox"]:not(:checked)+span{
+  .questionAnswer16 input[type="checkbox"]:not(:checked)+h1{
     background-color: black;
     color: white ;
+  }
+
+  .questionAnswer16 input[type="checkbox"]:not(:checked):hover+h1{
+    background-color: #56E100;
+    color: black;
   }
 
  
 
  .button Button{
-  border: 0.8vw solid #56E100;
+  border: 0.5vw solid #56E100;
   border-radius: 5vw;
   color: black;
   text-align: center;
   display: inline-block;
-  font-size: 6vw;
+  font-size: 3vw;
   font-weight: bold;
   background-color: #56E100;
   margin-bottom: 5vw;
@@ -2353,120 +2412,177 @@
  }
 
  .icon {
-  margin-left: 32vw;
-  margin-right: 32vw;
+  margin-left: 38vw;
+  margin-right: 1vw;
+  width: 25vw;
+  height: 10vw;
  }
 
  .icon2 {
-  margin-left: 3vw;
+  margin-left: 29vw;
+  margin-top: -9vw;
+  width: 15vw;
+  height: 10vw;
  }
 
- .barName span{
+ .barName h1{
   color: white;
   font: Arial;
   font-weight: bold;
-  font-size: 5vw;
- }
- .menuBox{
-   margin-left: 42vw;
-   border-radius: 5vw;
-   background-color: #56E100;
+  font-size: 3vw;
+  margin-left: 0vw;
+  margin-top: -5.8vw;
  }
 
+
  .menuBoxP2 span{
-  margin-top: 3vw; 
+  margin-top: 1.5vw; 
   color: white;
-  margin-left: 39vw;
   display: inline-block;
-  font-size: 5.5vw;
+  font-size: 2vw;
   font-weight: bold;
-  border: 0.8vw solid #56E100;
-  border-radius: 5vw;
-  padding: 2.5vw;
+  border: 0.5vw solid #56E100;
+  border-radius: 3vw;
+  padding: 0.5vw;
+  margin-top: 5vw;
+  margin-left: -34vw;
+ }
+
+ .menuBoxP2 span:hover{
+  margin-top: 1.5vw; 
+  display: inline-block;
+  font-size: 2vw;
+  font-weight: bold;
+  border: 0.5vw solid #56E100;
+  border-radius: 3vw;
+  padding: 0.5vw;
+  margin-top: 5vw;
+  color: black;
+  background-color: #56E100;
  }
 
  .menuBoxP4 span{
-  margin-top: 2vw; 
+  margin-top: 1.5vw; 
   color: white;
-  margin-left: 38.2vw;
   display: inline-block;
-  font-size: 5.5vw;
+  font-size: 2vw;
   font-weight: bold;
-  border: 0.8vw solid #56E100;
-  border-radius: 5vw;
-  padding: 2.5vw;
+  border: 0.5vw solid #56E100;
+  border-radius: 3vw;
+  padding: 0.5vw;
+  margin-top: 5.2vw;
+  margin-left: -24.8vw;
+ }
+
+ .menuBoxP4 span:hover{
+  margin-top: 1.5vw; 
+  color: black;
+  background-color: #56E100;
+  display: inline-block;
+  font-size: 2vw;
+  font-weight: bold;
+  border: 0.5vw solid #56E100;
+  border-radius: 3vw;
+  padding: 0.5vw;
+  margin-top: 5.2vw;
  }
 
  .menuBoxP3 h1{
+  font: Arial;
   color: white;
-  margin-left: 33vw;
-  text-align: center;
-  font-size: 5vw;
+  display: inline-block;
+  font-size: 1.5vw;
   font-weight: bold;
-  padding: 2.5vw;
-  border: 0.8vw solid #56E100;
-  border-radius: 5vw;
+  border: 0.5vw solid #56E100;
+  border-radius: 3vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-top: 5vw;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
+  margin-left: -24vw;
+ }
+
+ .menuBoxP3 h1:hover{
+  font: Arial;
+  color: black;
+  display: inline-block;
+  font-size: 1.5vw;
+  font-weight: bold;
+  border: 0.5vw solid #56E100;
+  border-radius: 3vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-top: 5vw;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
+  background-color: #56E100;
  }
 
  .menuBoxP5 h1{
   border: 0.8vw solid #56E100;
   border-radius: 5vw;
   color: white;
-  margin-left: 32vw;
+  margin-left: 39vw;
   text-align: center;
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: bold;
-  margin-top: 8vw;
-  margin-bottom: 150vw;
-  padding-left: 7vw;
-  padding-right: 7vw;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
+  margin-top: 3vw;
+  margin-bottom: 5.55vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
  }
 
  .loginPageTitle span{
   display: inline-block;
   color: white;
   text-align: center;
-  font-size: 10vw;
+  font-size: 5vw;
   font-weight: bold;
-  margin-top: 10vw;
+  margin-top: 5vw;
   font-weight: bold;
   font: Arial;
+  margin-left: 1vw;
+  margin-right: 1vw;
  }
 
  .loginPageSecondary span{
   display: inline-block;
   color: white;
   text-align: center;
-  font-size: 5.5vw;
+  font-size: 3.5vw;
   font-weight: bold;
   font: Arial;
+  margin-left: 5vw;
+  margin-right: 5vw;
  }
 
  .labeladmin {
   color: white;
-  font-size: 5.5vw;
+  font-size: 2.5vw;
   font-weight: bold;
   text-align: center;
   font: Arial;
   padding: 5vw;
   display: grid;
   margin-bottom: -6vw;
+  margin-top: -3vw;
  }
 
  .labeladmin Button{
-  border: 0.8vw solid #56E100;
+  border: 0.5vw solid #56E100;
   border-radius: 5vw;
   color: white;
   text-align: center;
   display: inline-block;
-  font-size: 6vw;
+  font-size: 2vw;
   font-weight: bold;
   background-color: black;
-  padding: 3vw;
-  margin-left: 7vw;
-  margin-right: 7vw;
+  padding: 1vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
   margin-bottom: 100vw;
  }
 
