@@ -21,7 +21,7 @@ const Header = () => {
       </Navbar.Collapse>
       </Navbar>
     ) 
-    else if (isAuthenticated && user.email.includes('@acmutd.co'))
+    else if (isAuthenticated && user.email.includes('education@acmutd.co'))
     return (
       <Navbar bg="dark" expand="lg">
       <Navbar.Brand><img src="Education-logo.svg" className="icon2" alt="ACM Education"/></Navbar.Brand>

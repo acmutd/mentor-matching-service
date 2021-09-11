@@ -35,9 +35,32 @@ const form = () => {
           q13: [],
           q14: '',
           q15: '',
+          counter: false
         }}
         onSubmit={async (values) => {
-          if (
+          let count = 0;
+          db.collection("info")
+          .get()
+          .then(querySnapshot => {
+            const data = querySnapshot.docs.map(doc => doc.data());
+            for (let i=0;i<data.length;i++){
+              if(data[i].email==(values.email)){
+                count = count+1;
+                console.log(count);
+                break;
+              }
+            }
+            console.log(count);
+          console.log(values.counter);
+          if(count!=0){
+            values.counter = true;
+          }
+          if(values.counter==true){
+            alert("You have already submitted your response. Please contact the admin to resubmit!");
+            values.email = '';
+            values.counter = false;
+          }
+          else if (
           values.email=='' || 
           values.firstName=='' || 
           values.lastName==''||
@@ -85,7 +108,6 @@ const form = () => {
             q15: values.q15
           })
           //await new Promise((r) => setTimeout(r, 500));
-          alert("Your response was submitted!");
           values.email = '';
           values.firstName='';
           values.lastName = '';
@@ -106,7 +128,11 @@ const form = () => {
           values.q13 = [];
           values.q14 = '';
           values.q15 = '';
+          values.counter = false;
+          alert("Your response was submitted!");
         }
+          });
+          
         }}
       >
         

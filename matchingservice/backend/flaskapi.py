@@ -30,7 +30,7 @@ def openFirestore():
         cred = credentials.Certificate("firebaseCredits.json")
         if not firebase_admin._apps:
             firebase_admin.initialize_app(cred)
-        
+
         return True
     except:
         # Unable to connect to firebase
