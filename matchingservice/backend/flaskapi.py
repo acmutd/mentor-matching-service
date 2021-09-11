@@ -27,7 +27,7 @@ sheet = ""
 def openFirestore():
     try:
         # Use the json file to attempt to connect to firebase
-        cred = credentials.Certificate("serviceAccountKey.json")
+        cred = credentials.Certificate("firebaseCredits.json")
         if not firebase_admin._apps:
             firebase_admin.initialize_app(cred)
         
@@ -42,7 +42,7 @@ def openFirestore():
 def openSheets(url):
     try:
         # Connecting to Google Sheets API
-        cred = service_account.ServiceAccountCredentials.from_json_keyfile_name("credits.json")
+        cred = service_account.ServiceAccountCredentials.from_json_keyfile_name("sheetsCredits.json")
         client = gspread.authorize(cred)
 
         # Var for tracking the URL of the google sheets to be edited
@@ -84,7 +84,13 @@ def result():
 
 @app.route('/sendMatchingToSheet', methods = ['POST'] )
 def runSheetsScript():
+
+    #Running the pairing algo
+    data = clustering()
+
+    #Url to connect to sheets with
     urlToSheets = str(request.get_json())
+    
     #Attempting to open the connection to Firestore
     if openFirestore():
 
@@ -136,6 +142,46 @@ def runSheetsScript():
 
         return "Done"
 
+
+@app.route('/getEmails', methods = ['GET', 'POST'] )
+def uploadEmailsToDatabase():
+    
+    if openFirestore():
+        # Getting the Pairings collection
+        db = firestore.client()
+
+        #Url to connect to sheets with
+        urlToSheets = str(request.get_json())
+    
+        # Opening sheets
+        if openSheets("https://docs.google.com/spreadsheets/d/1F8I7GHb4PWIe4g4g1g2tayVoWeqBc8BYbLV0eVVS-UA/edit?usp=sharing"):
+
+            #Getting the data on column one
+            values_list = sheet.col_values(1)
+
+            #While loop for adding column data to firebase
+            i = 0
+            while(i<len(values_list) and values_list[i]):
+
+                #If the current entry is a vaild email
+                if '@' in values_list[i]:
+
+                    #Create the new document and upload it
+                    newData = {
+                        'Email': values_list[i]
+                    }
+                    db.collection('participants').document(values_list[i]).set(newData)
+
+                #Loop to next varible
+                i+=1 
+
+            #Adding formatting message
+            if values_list[0]!="Make sure that all the emails are all on the A column. This message is automated, so even if you did the formating right this message will still show":
+                messageTitle = ["Make sure that all the emails are all on the A column. This message is automated, so even if you did the formating right this message will still show"]
+                sheet.insert_row(messageTitle, 1)
+
+    return "Done"
+                 
 
 
 
