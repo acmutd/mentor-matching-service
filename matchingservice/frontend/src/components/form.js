@@ -3,6 +3,8 @@ import { Formik, Field, Form } from 'formik';
 import { db } from "../firebase.js";
 import Button from '@material-ui/core/Button';
 import '../formStyles.css';
+
+
 const form = () => {
     return (
       <div
@@ -35,6 +37,31 @@ const form = () => {
           q15: '',
         }}
         onSubmit={async (values) => {
+          if (
+          values.email=='' || 
+          values.firstName=='' || 
+          values.lastName==''||
+          values.mentorOrMentee=='' ||
+          values.q0 == '' ||
+          values.q1 == '' ||
+          values.q2 == '' ||
+          values.q3 == [] ||
+          values.q4 == [] ||
+          values.q5 == [] ||
+          values.q6 == [] ||
+          values.q7 == '' ||
+          values.q8 == [] ||
+          values.q9 == '' ||
+          values.q10 == [] ||
+          values.q11 == '' ||
+          values.q12 == '' ||
+          values.q13 == [] ||
+          values.q14 == '' ||
+          values.q15 == ''
+          ) {
+            alert("Please answer all questions before submitting!");
+          }
+          else{
           db.collection('info').add({
             email: values.email,
             firstName: values.firstName,
@@ -79,8 +106,10 @@ const form = () => {
           values.q13 = [];
           values.q14 = '';
           values.q15 = '';
+        }
         }}
       >
+        
         <Form className="formHeaders">
           <br></br>
           <label className="inputLabels" htmlFor="firstName"> First Name </label>
