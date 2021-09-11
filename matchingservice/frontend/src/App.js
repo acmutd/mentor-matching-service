@@ -71,7 +71,7 @@ function App() {
       </Router>
     </div>
     )}
-    else if(isAuthenticated && !isLoading) return <div>Loading...</div>
+    else if(isAuthenticated && !isLoading) return <div>Loading2...</div>
     else if(isAuthenticated ){
       return (
         <div>

@@ -30,7 +30,7 @@ def openFirestore():
         cred = credentials.Certificate("serviceAccountKey.json")
         if not firebase_admin._apps:
             firebase_admin.initialize_app(cred)
-        
+
         return True
     except:
         # Unable to connect to firebase
@@ -84,6 +84,7 @@ def result():
 
 @app.route('/sendMatchingToSheet', methods = ['POST'] )
 def runSheetsScript():
+    data = clustering()
     urlToSheets = str(request.get_json())
     #Attempting to open the connection to Firestore
     if openFirestore():
