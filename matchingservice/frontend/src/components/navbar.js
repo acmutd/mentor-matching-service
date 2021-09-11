@@ -3,17 +3,10 @@ import {Navbar, Nav} from 'react-bootstrap'
 import {LinkContainer} from 'react-router-bootstrap'
 import { useAuth0 } from "@auth0/auth0-react";
 import LogoutButton from './LogoutButton';
-import LoginButton from './LoginButton';
 import '../formStyles.css';
 const Header = () => {
   const {user,isAuthenticated} = useAuth0();
-    if (!isAuthenticated)
-    return (
-      <Navbar bg="dark" expand="lg">
-      <Navbar.Brand><img src="Education-logo.svg" width="150" height="50" className="icon" alt="ACM Education"/></Navbar.Brand>
-      </Navbar>
-    ) 
-    else if (isAuthenticated && user.email.includes('@gmail.com')) 
+    if (isAuthenticated && user.email.includes('@utdallas.edu')) 
     return (
       <Navbar bg="dark" expand="lg">
       <Navbar.Brand><img src="Education-logo.svg" width="150" height="50" className="icon2" alt="ACM Education"/></Navbar.Brand>
@@ -28,7 +21,7 @@ const Header = () => {
       </Navbar.Collapse>
       </Navbar>
     ) 
-    else if (isAuthenticated && user.email.includes('@acmutd.co'))
+    else if (isAuthenticated && user.email.includes('education@acmutd.co'))
     return (
       <Navbar bg="dark" expand="lg">
       <Navbar.Brand><img src="Education-logo.svg" className="icon2" alt="ACM Education"/></Navbar.Brand>
@@ -49,6 +42,20 @@ const Header = () => {
       </Navbar.Collapse>
       </Navbar>
     )
+    else
+    return (
+      <Navbar bg="dark" expand="lg">
+      <Navbar.Brand><img src="Education-logo.svg" width="150" height="50" className="icon" alt="ACM Education"/></Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className="menuBox"/>
+      <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="mr-auto">
+        <LinkContainer to="/">
+          <Nav.Link> <LogoutButton /> </Nav.Link>
+          </LinkContainer>
+      </Nav>
+      </Navbar.Collapse>
+      </Navbar>
+    ) 
 }
 
 export default Header
