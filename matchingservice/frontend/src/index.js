@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Renderer from './renderer';
 import reportWebVitals from './reportWebVitals';
-import { Auth0Provider } from "@auth0/auth0-react";
+import { Auth0Provider } from '@auth0/auth0-react';
 
 const domain = process.env.REACT_APP_AUTH0_DOMAIN;
 const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
@@ -11,12 +11,12 @@ const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
 ReactDOM.render(
   <Auth0Provider
     domain={domain}
-    clientId= {clientId}
+    clientId={clientId}
     redirectUri={window.location.origin}
   >
     <Renderer />
   </Auth0Provider>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function

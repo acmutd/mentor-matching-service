@@ -42,11 +42,11 @@
     margin-bottom: 3vw;
   }
 
-  .questionAnswer1 input[type="radio"] {
+  .questionAnswer1 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer1 input[type="radio"]:checked + span {
+  .questionAnswer1 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -92,11 +92,11 @@
     margin-top: 9vw;
   }
 
-  .questionAnswer2 input[type="radio"] {
+  .questionAnswer2 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer2 input[type="radio"]:checked + span {
+  .questionAnswer2 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -131,11 +131,11 @@
     margin-top: 5vw;
   }
 
-  .questionAnswer3 input[type="radio"] {
+  .questionAnswer3 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer3 input[type="radio"]:checked + span {
+  .questionAnswer3 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -182,11 +182,11 @@
     margin-top: 7vw;
   }
 
-  .questionAnswer4 input[type="radio"] {
+  .questionAnswer4 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer4 input[type="radio"]:checked + span {
+  .questionAnswer4 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -239,11 +239,11 @@
     margin-top: 8vw;
   }
 
-  .questionAnswer5 input[type="radio"] {
+  .questionAnswer5 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer5 input[type="radio"]:checked + span {
+  .questionAnswer5 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -299,11 +299,11 @@
     margin-top: 8vw;
   }
 
-  .questionAnswer55 input[type="radio"] {
+  .questionAnswer55 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer55 input[type="radio"]:checked + span {
+  .questionAnswer55 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -357,16 +357,16 @@
     margin-top: 8vw;
   }
 
-  .questionAnswer6 input[type="checkbox"] {
+  .questionAnswer6 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer6 input[type="checkbox"]:checked + h1 {
+  .questionAnswer6 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer6 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer6 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
@@ -412,15 +412,15 @@
     margin-top: 8vw;
   }
 
-  .questionAnswer77 input[type="radio"] {
+  .questionAnswer77 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer77 input[type="radio"]:checked + h1 {
+  .questionAnswer77 input[type='radio']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
-  .questionAnswer77 input[type="radio"]:not(:checked) + h1 {
+  .questionAnswer77 input[type='radio']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
@@ -460,15 +460,15 @@
     margin-top: 8vw;
   }
 
-  .questionAnswer7 input[type="checkbox"] {
+  .questionAnswer7 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer7 input[type="checkbox"]:checked + span {
+  .questionAnswer7 input[type='checkbox']:checked + span {
     background-color: #56e100;
     color: black;
   }
-  .questionAnswer7 input[type="checkbox"]:not(:checked) + span {
+  .questionAnswer7 input[type='checkbox']:not(:checked) + span {
     background-color: black;
     color: white;
   }
@@ -518,19 +518,19 @@
     margin-top: 8vw;
   }
 
-  .questionAnswer8 input[type="checkbox"] {
+  .questionAnswer8 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer8 input[type="checkbox"]:checked + h1 {
+  .questionAnswer8 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
-  .questionAnswer8 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer8 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
-  .questionAnswer8 input[type="checkbox"]:not(:checked):hover + h1 {
+  .questionAnswer8 input[type='checkbox']:not(:checked):hover + h1 {
     background-color: #56e100;
     color: black;
   }
@@ -583,11 +583,11 @@
     margin-top: 8vw;
   }
 
-  .questionAnswer9 input[type="radio"] {
+  .questionAnswer9 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer9 input[type="radio"]:checked + span {
+  .questionAnswer9 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -617,11 +617,11 @@
     margin-top: 8vw;
   }
 
-  .questionAnswer10 input[type="radio"] {
+  .questionAnswer10 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer10 input[type="radio"]:checked + span {
+  .questionAnswer10 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -651,11 +651,11 @@
     margin-top: 8vw;
   }
 
-  .questionAnswer11 input[type="radio"] {
+  .questionAnswer11 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer11 input[type="radio"]:checked + span {
+  .questionAnswer11 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -704,15 +704,15 @@
     margin-top: 8vw;
   }
 
-  .questionAnswer12 input[type="checkbox"] {
+  .questionAnswer12 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer12 input[type="checkbox"]:checked + span {
+  .questionAnswer12 input[type='checkbox']:checked + span {
     background-color: #56e100;
     color: black;
   }
-  .questionAnswer12 input[type="checkbox"]:not(:checked) + span {
+  .questionAnswer12 input[type='checkbox']:not(:checked) + span {
     background-color: black;
     color: white;
   }
@@ -798,16 +798,16 @@
     margin-top: 6vw;
   }
 
-  .questionAnswer13 input[type="checkbox"] {
+  .questionAnswer13 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer13 input[type="checkbox"]:checked + h1 {
+  .questionAnswer13 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer13 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer13 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
@@ -868,16 +868,16 @@
     margin-top: 6vw;
   }
 
-  .questionAnswer14 input[type="checkbox"] {
+  .questionAnswer14 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer14 input[type="checkbox"]:checked + h1 {
+  .questionAnswer14 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer14 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer14 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
@@ -988,16 +988,16 @@
     margin-top: 6vw;
   }
 
-  .questionAnswer15 input[type="checkbox"] {
+  .questionAnswer15 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer15 input[type="checkbox"]:checked + h1 {
+  .questionAnswer15 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer15 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer15 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
@@ -1058,16 +1058,16 @@
     margin-top: 6vw;
   }
 
-  .questionAnswer16 input[type="checkbox"] {
+  .questionAnswer16 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer16 input[type="checkbox"]:checked + h1 {
+  .questionAnswer16 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer16 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer16 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
@@ -1392,11 +1392,11 @@
     margin-right: 0.5vw;
   }
 
-  .questionAnswer1 input[type="radio"] {
+  .questionAnswer1 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer1 input[type="radio"]:checked + span {
+  .questionAnswer1 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -1446,11 +1446,11 @@
     margin-top: 4.5vw;
   }
 
-  .questionAnswer2 input[type="radio"] {
+  .questionAnswer2 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer2 input[type="radio"]:checked + span {
+  .questionAnswer2 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -1488,11 +1488,11 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer3 input[type="radio"] {
+  .questionAnswer3 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer3 input[type="radio"]:checked + span {
+  .questionAnswer3 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -1539,11 +1539,11 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer4 input[type="radio"] {
+  .questionAnswer4 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer4 input[type="radio"]:checked + span {
+  .questionAnswer4 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -1599,16 +1599,16 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer5 input[type="radio"] {
+  .questionAnswer5 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer5 input[type="radio"]:checked + h1 {
+  .questionAnswer5 input[type='radio']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer5 input[type="radio"]:checked + span {
+  .questionAnswer5 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -1664,11 +1664,11 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer55 input[type="radio"] {
+  .questionAnswer55 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer55 input[type="radio"]:checked + span {
+  .questionAnswer55 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -1724,21 +1724,21 @@
     color: black;
   }
 
-  .questionAnswer6 input[type="checkbox"] {
+  .questionAnswer6 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer6 input[type="checkbox"]:checked + h1 {
+  .questionAnswer6 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer6 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer6 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
 
-  .questionAnswer6 input[type="checkbox"]:not(:checked):hover + h1 {
+  .questionAnswer6 input[type='checkbox']:not(:checked):hover + h1 {
     background-color: #56e100;
     color: black;
   }
@@ -1785,20 +1785,20 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer77 input[type="radio"] {
+  .questionAnswer77 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer77 input[type="radio"]:checked + h1 {
+  .questionAnswer77 input[type='radio']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
-  .questionAnswer77 input[type="radio"]:not(:checked) + h1 {
+  .questionAnswer77 input[type='radio']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
 
-  .questionAnswer77 input[type="radio"]:not(:checked):hover + h1 {
+  .questionAnswer77 input[type='radio']:not(:checked):hover + h1 {
     background-color: #56e100;
     color: black;
   }
@@ -1839,15 +1839,15 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer7 input[type="checkbox"] {
+  .questionAnswer7 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer7 input[type="checkbox"]:checked + span {
+  .questionAnswer7 input[type='checkbox']:checked + span {
     background-color: #56e100;
     color: black;
   }
-  .questionAnswer7 input[type="checkbox"]:not(:checked) + span {
+  .questionAnswer7 input[type='checkbox']:not(:checked) + span {
     background-color: black;
     color: white;
   }
@@ -1897,20 +1897,20 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer8 input[type="checkbox"] {
+  .questionAnswer8 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer8 input[type="checkbox"]:checked + h1 {
+  .questionAnswer8 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
-  .questionAnswer8 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer8 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
 
-  .questionAnswer8 input[type="checkbox"]:not(:checked):hover + h1 {
+  .questionAnswer8 input[type='checkbox']:not(:checked):hover + h1 {
     background-color: #56e100;
     color: black;
   }
@@ -1964,11 +1964,11 @@
     margin-top: 2vw;
   }
 
-  .questionAnswer9 input[type="radio"] {
+  .questionAnswer9 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer9 input[type="radio"]:checked + span {
+  .questionAnswer9 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -2000,11 +2000,11 @@
     margin-bottom: 3vw;
   }
 
-  .questionAnswer10 input[type="radio"] {
+  .questionAnswer10 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer10 input[type="radio"]:checked + span {
+  .questionAnswer10 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -2035,11 +2035,11 @@
     margin-top: 4vw;
   }
 
-  .questionAnswer11 input[type="radio"] {
+  .questionAnswer11 input[type='radio'] {
     display: none;
   }
 
-  .questionAnswer11 input[type="radio"]:checked + span {
+  .questionAnswer11 input[type='radio']:checked + span {
     background-color: #56e100;
     color: black;
   }
@@ -2089,19 +2089,19 @@
     margin-top: 3vw;
   }
 
-  .questionAnswer12 input[type="checkbox"] {
+  .questionAnswer12 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer12 input[type="checkbox"]:checked + span {
+  .questionAnswer12 input[type='checkbox']:checked + span {
     background-color: #56e100;
     color: black;
   }
-  .questionAnswer12 input[type="checkbox"]:not(:checked) + span {
+  .questionAnswer12 input[type='checkbox']:not(:checked) + span {
     background-color: black;
     color: white;
   }
-  .questionAnswer12 input[type="checkbox"]:not(:checked):hover + span {
+  .questionAnswer12 input[type='checkbox']:not(:checked):hover + span {
     background-color: #56e100;
     color: black;
   }
@@ -2195,21 +2195,21 @@
     margin-top: 3vw;
   }
 
-  .questionAnswer13 input[type="checkbox"] {
+  .questionAnswer13 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer13 input[type="checkbox"]:checked + h1 {
+  .questionAnswer13 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer13 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer13 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
 
-  .questionAnswer13 input[type="checkbox"]:not(:checked):hover + h1 {
+  .questionAnswer13 input[type='checkbox']:not(:checked):hover + h1 {
     background-color: #56e100;
     color: black;
   }
@@ -2273,21 +2273,21 @@
     margin-top: 3vw;
   }
 
-  .questionAnswer14 input[type="checkbox"] {
+  .questionAnswer14 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer14 input[type="checkbox"]:checked + h1 {
+  .questionAnswer14 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer14 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer14 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
 
-  .questionAnswer14 input[type="checkbox"]:not(:checked):hover + h1 {
+  .questionAnswer14 input[type='checkbox']:not(:checked):hover + h1 {
     background-color: #56e100;
     color: black;
   }
@@ -2376,21 +2376,21 @@
     margin-top: 3vw;
   }
 
-  .questionAnswer15 input[type="checkbox"] {
+  .questionAnswer15 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer15 input[type="checkbox"]:checked + h1 {
+  .questionAnswer15 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer15 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer15 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
 
-  .questionAnswer15 input[type="checkbox"]:not(:checked):hover + h1 {
+  .questionAnswer15 input[type='checkbox']:not(:checked):hover + h1 {
     background-color: #56e100;
     color: black;
   }
@@ -2452,21 +2452,21 @@
     margin-top: 3vw;
   }
 
-  .questionAnswer16 input[type="checkbox"] {
+  .questionAnswer16 input[type='checkbox'] {
     display: none;
   }
 
-  .questionAnswer16 input[type="checkbox"]:checked + h1 {
+  .questionAnswer16 input[type='checkbox']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
 
-  .questionAnswer16 input[type="checkbox"]:not(:checked) + h1 {
+  .questionAnswer16 input[type='checkbox']:not(:checked) + h1 {
     background-color: black;
     color: white;
   }
 
-  .questionAnswer16 input[type="checkbox"]:not(:checked):hover + h1 {
+  .questionAnswer16 input[type='checkbox']:not(:checked):hover + h1 {
     background-color: #56e100;
     color: black;
   }
