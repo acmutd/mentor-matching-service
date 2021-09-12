@@ -43,7 +43,7 @@ const form = () => {
             .then((querySnapshot) => {
               const data = querySnapshot.docs.map((doc) => doc.data());
               for (let i = 0; i < data.length; i++) {
-                if (data[i].email == values.email) {
+                if (data[i].email === values.email) {
                   count = count + 1;
                   console.log(count);
                   break;
@@ -51,36 +51,36 @@ const form = () => {
               }
               console.log(count);
               console.log(values.counter);
-              if (count != 0) {
+              if (count !== 0) {
                 values.counter = true;
               }
-              if (values.counter == true) {
+              if (values.counter === true) {
                 alert(
                   'You have already submitted your response. Please contact the admin to resubmit!',
                 );
                 values.email = '';
                 values.counter = false;
               } else if (
-                values.email == '' ||
-                values.firstName == '' ||
-                values.lastName == '' ||
-                values.mentorOrMentee == '' ||
-                values.q0 == '' ||
-                values.q1 == '' ||
-                values.q2 == '' ||
-                values.q3 == [] ||
-                values.q4 == [] ||
-                values.q5 == [] ||
-                values.q6 == [] ||
-                values.q7 == '' ||
-                values.q8 == [] ||
-                values.q9 == '' ||
-                values.q10 == [] ||
-                values.q11 == '' ||
-                values.q12 == '' ||
-                values.q13 == [] ||
-                values.q14 == '' ||
-                values.q15 == ''
+                values.email === '' ||
+                values.firstName === '' ||
+                values.lastName === '' ||
+                values.mentorOrMentee === '' ||
+                values.q0 === '' ||
+                values.q1 === '' ||
+                values.q2 === '' ||
+                values.q3 === [] ||
+                values.q4 === [] ||
+                values.q5 === [] ||
+                values.q6 === [] ||
+                values.q7 === '' ||
+                values.q8 === [] ||
+                values.q9 === '' ||
+                values.q10 === [] ||
+                values.q11 === '' ||
+                values.q12 === '' ||
+                values.q13 === [] ||
+                values.q14 === '' ||
+                values.q15 === ''
               ) {
                 alert('Please answer all questions before submitting!');
               } else {
