@@ -97,7 +97,7 @@ def runSheetsScript():
         # Getting the Pairings collection
         db = firestore.client()
         pairingList = db.collection('Pairings').get()
-
+        pairings = []
         # Opening sheets
         if openSheets(urlToSheets):
             # Inserting and formatting the top row
@@ -120,7 +120,7 @@ def runSheetsScript():
 
                 # If the doc exists, perform a query on it
                 if doc.exists:
-
+                    pairings.append(doc.to_dict())
 
                     # getting the info on the partners
                     partnerInfo = doc.get("Partners")
@@ -139,8 +139,8 @@ def runSheetsScript():
                     newRow = [doc.get("email"), doc.get("firstName"), doc.get("lastName"), doc.get("type"), p1Info[0],
                               p1Info[1], p1Info[2], p1Info[3], p2Info[0], p2Info[1], p2Info[2], p2Info[3]]
                     sheet.insert_row(newRow, 2)
-
-        return "Done"
+    print(pairings)
+    return json.dumps(pairings)
 
 
 @app.route('/getEmails', methods = ['GET', 'POST'] )
@@ -154,7 +154,7 @@ def uploadEmailsToDatabase():
         urlToSheets = str(request.get_json())
         print(urlToSheets)
         # Opening sheets
-        if openSheets("https://docs.google.com/spreadsheets/d/1F8I7GHb4PWIe4g4g1g2tayVoWeqBc8BYbLV0eVVS-UA/edit?usp=sharing"):
+        if openSheets(urlToSheets):
 
             #Getting the data on column one
             values_list = sheet.col_values(1)
@@ -180,8 +180,7 @@ def uploadEmailsToDatabase():
                 messageTitle = ["Make sure that all the emails are all on the A column. This message is automated, so even if you did the formating right this message will still show"]
                 sheet.insert_row(messageTitle, 1)
 
-    return "Done"
-
+        return json.dumps(values_list)
 
 
 
