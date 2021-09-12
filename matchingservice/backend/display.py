@@ -23,11 +23,11 @@ import pickle
 #db = firestore.Client.from_service_account_json(path)
 
 #collection = db.collection('info')
-
+serviceAccountCred = "firebaseCredits.json"
 
 # Reads Data From All Documents
 def read_all_data():
-    path = Path(__file__).parent / "serviceAccountKey.json"
+    path = Path(__file__).parent / serviceAccountCred
     db = firestore.Client.from_service_account_json(path)
     collection = db.collection('info')
     user_list = []
@@ -37,7 +37,7 @@ def read_all_data():
     return user_list
 
 def sendMatchingData(data):
-    path = Path(__file__).parent / "serviceAccountKey.json"
+    path = Path(__file__).parent / serviceAccountCred
     db = firestore.Client.from_service_account_json(path)
     for x in data:
         db.collection('Pairings').document(x['firstName']+""+x['lastName']).set(x)

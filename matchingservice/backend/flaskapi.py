@@ -90,7 +90,7 @@ def runSheetsScript():
 
     #Url to connect to sheets with
     urlToSheets = str(request.get_json())
-    
+    print(urlToSheets)
     #Attempting to open the connection to Firestore
     if openFirestore():
 
@@ -145,14 +145,14 @@ def runSheetsScript():
 
 @app.route('/getEmails', methods = ['GET', 'POST'] )
 def uploadEmailsToDatabase():
-    
+
     if openFirestore():
         # Getting the Pairings collection
         db = firestore.client()
 
         #Url to connect to sheets with
         urlToSheets = str(request.get_json())
-    
+        print(urlToSheets)
         # Opening sheets
         if openSheets("https://docs.google.com/spreadsheets/d/1F8I7GHb4PWIe4g4g1g2tayVoWeqBc8BYbLV0eVVS-UA/edit?usp=sharing"):
 
@@ -173,7 +173,7 @@ def uploadEmailsToDatabase():
                     db.collection('participants').document(values_list[i]).set(newData)
 
                 #Loop to next varible
-                i+=1 
+                i+=1
 
             #Adding formatting message
             if values_list[0]!="Make sure that all the emails are all on the A column. This message is automated, so even if you did the formating right this message will still show":
@@ -181,7 +181,7 @@ def uploadEmailsToDatabase():
                 sheet.insert_row(messageTitle, 1)
 
     return "Done"
-                 
+
 
 
 
