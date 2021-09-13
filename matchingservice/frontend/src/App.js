@@ -20,8 +20,8 @@ function App() {
       .then((querySnapshot) => {
         const data = querySnapshot.docs.map((doc) => doc.data());
         console.log(user.email);
-        console.log(data[0].email);
-        console.log(data[0].email === user.email); // array of cities objects
+        //console.log(data[0].email);
+        //console.log(data[0].email === user.email); // array of cities objects
         for (let i = 0; i < data.length; i++) {
           if (data[i].email === user.email) {
             setEmails(true);
@@ -45,7 +45,7 @@ function App() {
         </Router>
       </div>
     );
-  } else if (isAuthenticated && !isLoading) return <div>Loading2...</div>;
+  } else if (isAuthenticated && !isLoading) return <div>Loading...</div>;
   else if (isAuthenticated) {
     return (
       <div>
