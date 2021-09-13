@@ -8,6 +8,7 @@ import sys
 import gspread
 from oauth2client import service_account
 import firebase_admin
+import os
 from firebase_admin import credentials
 from firebase_admin import firestore
 # import firebase_test
@@ -21,13 +22,16 @@ scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/au
          "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
 # The sheet object the script is connecting to
 sheet = ""
-
+serviceAccountCred = "firebaseCredits.json"
 
 # Method to connect to firebase
 def openFirestore():
     try:
         # Use the json file to attempt to connect to firebase
-        cred = credentials.Certificate("firebaseCredits.json")
+        if os.environ.get("GOOGLE_APPLICATION_CREDENTIALS") is None:
+            cred = credentials.Certificate(serviceAccountCred)
+        else:
+            cred = credentials.Certificate(GOOGLE_APPLICATION_CREDENTIALS)
         if not firebase_admin._apps:
             firebase_admin.initialize_app(cred)
 
@@ -42,8 +46,16 @@ def openFirestore():
 def openSheets(url):
     try:
         # Connecting to Google Sheets API
-        cred = service_account.ServiceAccountCredentials.from_json_keyfile_name("sheetsCredits.json")
-        client = gspread.authorize(cred)
+        if os.environ.get("GOOGLE_APPLICATION_CREDENTIALS") is None:
+            print("first path")
+            cred = service_account.ServiceAccountCredentials.from_json_keyfile_name(serviceAccountCred)
+            client = gspread.authorize(cred)
+        else:
+            print("second path")
+            cred = service_account.ServiceAccountCredentials.from_json_keyfile_name(GOOGLE_APPLICATION_CREDENTIALS)
+            client = gspread.authorize(cred)
+        #cred = service_account.ServiceAccountCredentials.from_json_keyfile_name(serviceAccountCred)
+        #client = gspread.authorize(cred)
 
         # Var for tracking the URL of the google sheets to be edited
         sheet_url = url
@@ -55,8 +67,9 @@ def openSheets(url):
 
         return True
 
-    except:
+    except Exception as err:
         # Couldn't get the google sheet so return false
+        print(err)
         print("Couldn't connect to Google Sheets! Make sure the JSON is correct, the link to the sheet is right, "
               "and make sure sharing is turned on!")
         return False
