@@ -21,10 +21,13 @@ import pickle
 # db = firestore.client()
 #path = Path(__file__).parent / "serviceAccountKey.json"
 #db = firestore.Client.from_service_account_json(path)
-
+db = None
 #collection = db.collection('info')
 serviceAccountCred = "firebaseCredits.json"
 def initializeFirebase():
+    global db
+    if db is not None:
+        return db
     if os.environ.get("GOOGLE_APPLICATION_CREDENTIALS") is None:
         cred = credentials.Certificate(serviceAccountCred)
         firebase_admin.initialize_app(cred)
@@ -51,7 +54,7 @@ def read_all_data():
 def sendMatchingData(data):
     #path = Path(__file__).parent / serviceAccountCred
     #db = firestore.Client.from_service_account_json(path)
-    db = firestore.client()
+    db = initializeFirebase()
     for x in data:
         db.collection('Pairings').document(x['firstName']+""+x['lastName']).set(x)
 
