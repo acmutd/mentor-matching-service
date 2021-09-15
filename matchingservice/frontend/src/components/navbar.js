@@ -70,7 +70,7 @@ const Header = () => {
             alt="ACM Education"
           />
         </Navbar.Brand>
-       
+        <LogoutButton/>
       </Navbar>
     );
 };
