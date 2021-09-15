@@ -21,15 +21,9 @@ const Header = () => {
         <Navbar.Brand className="barName">
           <span>Matching Portal</span>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="menuBox" />
-        <Nav className="mr-auto">
-            <LinkContainer to="/">
-            <Nav.Link>
-                {' '}
-                <LogoutButton/>{' '}
-              </Nav.Link>
-            </LinkContainer>
-          </Nav>
+       
+        <LogoutButton/>
+        
       </Navbar>
     );
   else if (isAuthenticated && user.email.includes('education@acmutd.co'))

@@ -22,9 +22,7 @@ const ErrorPage = () => {
           Mentor Program.{' '}
         </span>
       </h3>
-      <h1>
-      <LogoutButton/>
-      </h1>
+      
     </div>
   );
 };

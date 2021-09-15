@@ -1,4 +1,4 @@
-@media (max-width: 479px) {
+@media (max-width: 768px) {
 
   .wholePage{
     margin-right: 0vw;
@@ -254,6 +254,11 @@
   }
 
   .questionAnswer5 input[type='radio']:checked + span {
+    background-color: #56e100;
+    color: black;
+  }
+
+  .questionAnswer5 input[type='radio']:checked + h1 {
     background-color: #56e100;
     color: black;
   }
@@ -1101,11 +1106,11 @@
   }
 
   .icon2 {
-    margin-left: 27vw;
+    margin-left: 24vw;
     margin-top: -18vw;
     width: 50vw;
     height: 50vw;
-    
+    margin-bottom: -18vw;
   }
 
   .barName h1 {
@@ -1113,7 +1118,7 @@
     font: Arial;
     font-weight: bold;
     font-size: 9vw;
-    margin-left: 17vw;
+    margin-left: 10vw;
     margin-top: -15vw;
   }
 
@@ -1121,6 +1126,7 @@
     margin-left: 43vw;
     border-radius: 5vw;
     background-color: #56e100;
+    
   }
 
   .menuBoxP2 span {
@@ -1261,7 +1267,8 @@
     color: white;
     font: Arial;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 6vw;
+    margin-left: 27vw;
   }
   
 
@@ -1291,9 +1298,9 @@
 
   .menuBoxP3 h1 {
     color: white;
-    margin-left: 26vw;
+    margin-left: 33vw;
     text-align: center;
-    font-size: 8vw;
+    font-size: 5vw;
     font-weight: bold;
     padding: 2.5vw;
     border: 0.8vw solid #56e100;
@@ -1357,7 +1364,7 @@
   
 }
 
-@media (max-width: 1920px) and (min-width: 1280px) {
+@media (max-width: 3840px) and (min-width: 769px) {
   .formHeaders {
     color: white;
     font: Arial;
@@ -2500,7 +2507,7 @@
   }
 
   .icon2 {
-    margin-left: 25vw;
+    margin-left: 27vw;
     margin-top: 0vw;
     width: 20vw;
     height: 10vw;
@@ -2512,7 +2519,7 @@
     font: Arial;
     font-weight: bold;
     font-size: 3vw;
-    margin-left: 0vw;
+    margin-left: 1vw;
     margin-top: -5.5vw;
     
   }
@@ -2580,7 +2587,8 @@
     padding-right: 1vw;
     padding-top: 0.5vw;
     padding-bottom: 0.5vw;
-    display: inline-block;
+    margin-left: -50vw;
+    margin-top: 11vw;
   }
 
   .menuBoxP3 h1:hover {
