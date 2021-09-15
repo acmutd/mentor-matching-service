@@ -1,8 +1,9 @@
-import React from 'react';
+import {React} from 'react';
 import { Formik, Field, Form } from 'formik';
 import { db } from '../firebase.js';
 import Button from '@material-ui/core/Button';
 import '../formStyles.css';
+
 
 const form = () => {
   return (
@@ -38,6 +39,7 @@ const form = () => {
         }}
         onSubmit={async (values) => {
           let count = 0;
+          console.log(count);
           db.collection('info')
             .get()
             .then((querySnapshot) => {
@@ -68,22 +70,22 @@ const form = () => {
                 values.q0 === '' ||
                 values.q1 === '' ||
                 values.q2 === '' ||
-                values.q3 === [] ||
-                values.q4 === [] ||
-                values.q5 === [] ||
-                values.q6 === [] ||
+                values.q3.length === 0 ||
+                values.q4.length === 0 ||
+                values.q5.length === 0 ||
+                values.q6.length === 0||
                 values.q7 === '' ||
-                values.q8 === [] ||
+                values.q8.length === 0 ||
                 values.q9 === '' ||
-                values.q10 === [] ||
+                values.q10.length === 0 ||
                 values.q11 === '' ||
                 values.q12 === '' ||
-                values.q13 === [] ||
+                values.q13.length === 0 ||
                 values.q14 === '' ||
                 values.q15 === ''
               ) {
                 alert('Please answer all questions before submitting!');
-              } else {
+              } else{
                 db.collection('info').add({
                   email: values.email,
                   firstName: values.firstName,
@@ -106,7 +108,7 @@ const form = () => {
                   q14: values.q14,
                   q15: values.q15,
                 });
-                //await new Promise((r) => setTimeout(r, 500));
+                alert(JSON.stringify(values));
                 values.email = '';
                 values.firstName = '';
                 values.lastName = '';
@@ -128,7 +130,6 @@ const form = () => {
                 values.q14 = '';
                 values.q15 = '';
                 values.counter = false;
-                alert('Your response was submitted!');
               }
             });
         }}
