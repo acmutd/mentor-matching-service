@@ -26,7 +26,7 @@
     "eject": "react-scripts eject",
     "format": "prettier --write --ignore-unknown ."
   },
-  "proxy": "http://127.0.0.1:5000/",
+  "proxy": "https://acm-matching-portal-5wkfr4vxjq-uc.a.run.app/",
   "eslintConfig": {
     "extends": [
       "react-app",
