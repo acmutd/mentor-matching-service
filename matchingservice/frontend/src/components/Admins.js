@@ -36,7 +36,6 @@ const Admins = () => {
           <div className="labeladmin">
             <Button
               color="secondary"
-              className="labelAdmin"
               onClick={() => {
                 db.collection('info')
                   .get()
@@ -55,7 +54,7 @@ const Admins = () => {
             </h1>
           </label>
           <br className="labeladmin"></br>
-          <div className="labeladmin">
+          <div className="labeladminField">
             <Field name="url" label="Outlined" variant="outlined" />
           </div>
           <br></br>
@@ -100,7 +99,7 @@ const Admins = () => {
             </h1>
           </label>
           <br className="labeladmin"></br>
-          <div className="labeladmin">
+          <div className="labeladminField">
             <Field name="url" label="Outlined" variant="outlined" />
           </div>
           <br></br>

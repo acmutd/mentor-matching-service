@@ -22,16 +22,14 @@ const Header = () => {
           <span>Matching Portal</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="menuBox" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+        <Nav className="mr-auto">
             <LinkContainer to="/">
-              <Nav.Link>
+            <Nav.Link>
                 {' '}
-                <LogoutButton />{' '}
+                <LogoutButton/>{' '}
               </Nav.Link>
             </LinkContainer>
           </Nav>
-        </Navbar.Collapse>
       </Navbar>
     );
   else if (isAuthenticated && user.email.includes('education@acmutd.co'))
@@ -68,27 +66,17 @@ const Header = () => {
     );
   else
     return (
-      <Navbar bg="dark" expand="lg">
+      <Navbar bg="dark" expand="lg" >
         <Navbar.Brand>
           <img
             src="Education-logo.svg"
-            width="150"
+            width="200"
             height="50"
             className="icon"
             alt="ACM Education"
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="menuBox" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <LinkContainer to="/">
-              <Nav.Link>
-                {' '}
-                <LogoutButton />{' '}
-              </Nav.Link>
-            </LinkContainer>
-          </Nav>
-        </Navbar.Collapse>
+       
       </Navbar>
     );
 };

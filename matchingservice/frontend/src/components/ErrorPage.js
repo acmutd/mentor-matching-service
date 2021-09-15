@@ -6,22 +6,25 @@ const ErrorPage = () => {
     <div
       className="wholePage"
       style={{
-        marginTop: 0,
+        
         backgroundColor: 'black',
+        //marginRight: -20
         //backgroundColor: '#212020',
       }}
     >
-      <h1 className="loginPageTitle">
+      <h1 className="loginPageTitle2">
         <span>Welcome to the Mentor-Mentee Matching Portal!</span>
       </h1>
-      <h3 className="loginPageSecondary">
+      <h3 className="loginPageSecondary2">
         <span>
           Unfotunately, this email is not associated with the ACM Mentor
-          Program.Please log in with the same email you used to apply to the
+          Program. Please log in with the same email you used to apply to the
           Mentor Program.{' '}
         </span>
       </h3>
-      <LogoutButton />
+      <h1>
+      <LogoutButton/>
+      </h1>
     </div>
   );
 };

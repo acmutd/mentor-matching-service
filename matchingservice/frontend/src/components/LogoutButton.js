@@ -8,7 +8,7 @@ const LogoutButton = () => {
   return (
     isAuthenticated && (
       <Button className="menuBoxP3" onClick={() => logout()}>
-        <h1>Log Out</h1>
+        <h1 >Log Out</h1>
       </Button>
     )
   );
