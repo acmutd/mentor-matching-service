@@ -1308,6 +1308,18 @@
     margin-bottom: 5vw;
   }
 
+  .errorPageLogout h1 {
+    color: white;
+    margin-left: 26vw;
+    text-align: center;
+    font-size: 8vw;
+    font-weight: bold;
+    padding: 2.5vw;
+    border: 0.8vw solid #56e100;
+    border-radius: 5vw;
+    margin-bottom: 96vw;
+  }
+
   
 
   .loginPageTitle span {
@@ -2592,6 +2604,27 @@
   }
 
   .menuBoxP3 h1:hover {
+    color: black;
+    background-color: #56e100;
+  }
+
+  .errorPageLogout h1 {
+    font: Arial;
+    color: white;
+    font-size: 5vw;
+    font-weight: bold;
+    border: 0.5vw solid #56e100;
+    border-radius: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin-left: 36.5vw;
+    margin-top: 5vw;
+    margin-bottom: 60vh;
+  }
+
+  .errorPageLogouth1 h1:hover {
     color: black;
     background-color: #56e100;
   }

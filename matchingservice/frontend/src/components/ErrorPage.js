@@ -1,6 +1,7 @@
 import React from 'react';
 import '../formStyles.css';
-import LogoutButton from './LogoutButton';
+import LogoutButton from './LogoutButtonTwo';
+
 const ErrorPage = () => {
   return (
     <div
@@ -22,7 +23,9 @@ const ErrorPage = () => {
           Mentor Program.{' '}
         </span>
       </h3>
-      
+      <h1>
+      <LogoutButton/>
+      </h1>
     </div>
   );
 };
