@@ -108,7 +108,7 @@ const form = () => {
                   q14: values.q14,
                   q15: values.q15,
                 });
-                alert(JSON.stringify(values));
+                alert("Your response has been submitted!");
                 values.email = '';
                 values.firstName = '';
                 values.lastName = '';
