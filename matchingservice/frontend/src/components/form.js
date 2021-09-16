@@ -96,10 +96,10 @@ const form = () => {
                 const data = querySnapshot.docs.map((doc) => doc.data());
                 for (let i = 0; i < data.length; i++) {
                   if (data[i].email === values.email) {
-                    if(values.q15 != data[i].MenteeCount)
+                    if(values.q15 !== data[i].MenteeCount)
                     {
                       console.log(values.q15 +" == "+data[i].MenteeCount);
-                      if(data[i].MenteeCount==3)
+                      if(data[i].MenteeCount==="3")
                       {
                         alert(
                         'You selected a mentee count even though you are a mentee, please go back and select "I am a mentee".',
@@ -224,11 +224,11 @@ const form = () => {
           >
             <label className="questionAnswer2P2">
               <Field type="radio" name="q15" value="1" />
-              <span>Yes</span>
+              <span>No</span>
             </label>
             <label className="questionAnswer2P3">
               <Field type="radio" name="q15" value="2" />
-              <span>No</span>
+              <span>Yes</span>
             </label>
             <label className="questionAnswer2P4">
               <Field type="radio" name="q15" value="3" />
