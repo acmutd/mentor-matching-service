@@ -38,6 +38,7 @@ const form = () => {
           counter: false,
         }}
         onSubmit={async (values) => {
+
           let count = 0;
           console.log(count);
           db.collection('info')
@@ -62,7 +63,9 @@ const form = () => {
                 );
                 values.email = '';
                 values.counter = false;
-              } else if (
+              
+
+              }else if (
                 values.email === '' ||
                 values.firstName === '' ||
                 values.lastName === '' ||
@@ -86,50 +89,82 @@ const form = () => {
               ) {
                 alert('Please answer all questions before submitting!');
               } else{
-                db.collection('info').add({
-                  email: values.email,
-                  firstName: values.firstName,
-                  lastName: values.lastName,
-                  mentorOrMentee: values.mentorOrMentee,
-                  q0: values.q0,
-                  q9: values.q9,
-                  q6: values.q6,
-                  q7: values.q7,
-                  q8: values.q8,
-                  q1: values.q1,
-                  q2: values.q2,
-                  q3: values.q3,
-                  q4: values.q4,
-                  q5: values.q5,
-                  q10: values.q10,
-                  q11: values.q11,
-                  q12: values.q12,
-                  q13: values.q13,
-                  q14: values.q14,
-                  q15: values.q15,
+                
+                db.collection('participants')
+                .get()
+                .then((querySnapshot) => {
+                const data = querySnapshot.docs.map((doc) => doc.data());
+                for (let i = 0; i < data.length; i++) {
+                  if (data[i].email === values.email) {
+                    if(values.q15 != data[i].MenteeCount)
+                    {
+                      console.log(values.q15 +" == "+data[i].MenteeCount);
+                      if(data[i].MenteeCount==3)
+                      {
+                        alert(
+                        'You selected a mentee count even though you are a mentee, please go back and select "I am a mentee".',
+                        );
+                      }
+                      else
+                      {
+                        alert(
+                          'You selected the wrong mentee count, please go back and reselect.',
+                        );
+                      }
+                    }
+                    else
+                    {
+                      db.collection('info').add({
+                        email: values.email,
+                        firstName: values.firstName,
+                        lastName: values.lastName,
+                        mentorOrMentee: values.mentorOrMentee,
+                        q0: values.q0,
+                        q9: values.q9,
+                        q6: values.q6,
+                        q7: values.q7,
+                        q8: values.q8,
+                        q1: values.q1,
+                        q2: values.q2,
+                        q3: values.q3,
+                        q4: values.q4,
+                        q5: values.q5,
+                        q10: values.q10,
+                        q11: values.q11,
+                        q12: values.q12,
+                        q13: values.q13,
+                        q14: values.q14,
+                        q15: values.q15,
+                      });
+                      alert("Your response has been submitted!");
+                      values.email = '';
+                      values.firstName = '';
+                      values.lastName = '';
+                      values.mentorOrMentee = '';
+                      values.q0 = '';
+                      values.q1 = '';
+                      values.q2 = '';
+                      values.q3 = [];
+                      values.q4 = [];
+                      values.q5 = [];
+                      values.q6 = [];
+                      values.q7 = '';
+                      values.q8 = [];
+                      values.q9 = '';
+                      values.q10 = [];
+                      values.q11 = '';
+                      values.q12 = '';
+                      values.q13 = [];
+                      values.q14 = '';
+                      values.q15 = '';
+                      values.counter = false;
+                    }
+
+                    break;
+                   }
+                }
                 });
-                alert("Your response has been submitted!");
-                values.email = '';
-                values.firstName = '';
-                values.lastName = '';
-                values.mentorOrMentee = '';
-                values.q0 = '';
-                values.q1 = '';
-                values.q2 = '';
-                values.q3 = [];
-                values.q4 = [];
-                values.q5 = [];
-                values.q6 = [];
-                values.q7 = '';
-                values.q8 = [];
-                values.q9 = '';
-                values.q10 = [];
-                values.q11 = '';
-                values.q12 = '';
-                values.q13 = [];
-                values.q14 = '';
-                values.q15 = '';
-                values.counter = false;
+
               }
             });
         }}

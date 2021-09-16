@@ -166,34 +166,39 @@ def uploadEmailsToDatabase():
         #Url to connect to sheets with
         urlToSheets = str(request.get_json())
         print(urlToSheets)
+
         # Opening sheets
         if openSheets(urlToSheets):
 
-            #Getting the data on column one
-            values_list = sheet.col_values(1)
+            #Getting the data on column one and two
+            email_List = sheet.col_values(1)
+            mentee_Count_List = sheet.col_values(2)
+            
+            #Senting the formatting message to the sheets to make sure the admin understands what the correct format is
+            if email_List[0]!="Mentors/Mentees Emails":
+                    messageTitle = ["Mentors/Mentees Emails","Mentee Count","Make sure that all the emails are all on the A column and the mentee counts are on column B. Mentees have a mentee count of 3. This message is automated, so even if you did the formating right this message will still show"]
+                    sheet.insert_row(messageTitle, 1)
 
-            #While loop for adding column data to firebase
-            i = 0
-            while(i<len(values_list) and values_list[i]):
+            if len(email_List) == len(mentee_Count_List):
+                
+                #While loop for adding column data to firebase
+                i = 0
+                while(i<len(email_List) and email_List[i]):
 
-                #If the current entry is a vaild email
-                if '@' in values_list[i]:
+                    #If the current entry is a vaild email
+                    if '@' in email_List[i]:
+                        #Create the new document and upload it
+                        newData = {
+                        'email': email_List[i],
+                        'MenteeCount': mentee_Count_List[i]
+                        }
 
-                    #Create the new document and upload it
-                    newData = {
-                        'Email': values_list[i]
-                    }
-                    db.collection('participants').document(values_list[i]).set(newData)
+                        db.collection('participants').document(email_List[i]).set(newData)
+                    #Loop to next varible
+                    i+=1
 
-                #Loop to next varible
-                i+=1
-
-            #Adding formatting message
-            if values_list[0]!="Make sure that all the emails are all on the A column. This message is automated, so even if you did the formating right this message will still show":
-                messageTitle = ["Make sure that all the emails are all on the A column. This message is automated, so even if you did the formating right this message will still show"]
-                sheet.insert_row(messageTitle, 1)
-
-        return json.dumps(values_list)
+            
+        return json.dumps(email_List)
 
 
 
