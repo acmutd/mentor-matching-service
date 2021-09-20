@@ -26,7 +26,7 @@ const Admins = () => {
             })
             .catch((error) => {
               alert(
-                'Oh no! There was an internal server issue, please try again later!',
+              'Oh no! There was an internal server issue, please try again later!',
               );
               console.error('Error:', error);
             });

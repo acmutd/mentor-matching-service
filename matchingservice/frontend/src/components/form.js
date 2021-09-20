@@ -89,16 +89,16 @@ const form = () => {
               ) {
                 alert('Please answer all questions before submitting!');
               } else{
-                
+                let foundEmail = 0;
                 db.collection('participants')
                 .get()
                 .then((querySnapshot) => {
                 const data = querySnapshot.docs.map((doc) => doc.data());
                 for (let i = 0; i < data.length; i++) {
                   if (data[i].email === values.email) {
+                    foundEmail = 1;
                     if(values.q15 !== data[i].MenteeCount)
                     {
-                      console.log(values.q15 +" == "+data[i].MenteeCount);
                       if(data[i].MenteeCount==="3")
                       {
                         alert(
@@ -108,9 +108,15 @@ const form = () => {
                       else
                       {
                         alert(
-                          'You selected the wrong mentee count, please go back and reselect.',
+                          'You selected the wrong mentee count, please go back and reselect. You are assigned '+data[i].MenteeCount+' mentee(s)',
                         );
                       }
+                    }
+                    else if((values.mentorOrMentee==="Mentor" && data[i].MenteeCount==="3") || (values.mentorOrMentee==="Mentee" && data[i].MenteeCount!=="3"))
+                    {
+                      alert(
+                        'You selected the wrong choice for question one, please go back and select the other option.',
+                      );
                     }
                     else
                     {
@@ -163,6 +169,12 @@ const form = () => {
                     break;
                    }
                 }
+                if(foundEmail===0)
+                {
+                  alert(
+                    'That email was not found. Make sure that the email is the one we sent the link to this form to.',
+                    );
+                }
                 });
 
               }
@@ -185,12 +197,12 @@ const form = () => {
           <br></br>
           <br></br>
           <label className="inputLabels" htmlFor="email">
-            UTD Email{' '}
+            Email{' '}
           </label>
           <Field
             id="email"
             name="email"
-            placeholder="ID@utdallas.edu"
+            placeholder="name@email.com"
             type="email"
           />
           <br></br>
